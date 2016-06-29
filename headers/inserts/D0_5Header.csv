@@ -1,0 +1,56 @@
+Check,,   [ ] Title V - O/P   ,,    [ ] Hospital,          [ ] Subprovider (Other),,  [ ] Swing Bed SNF,,,
+applicable,,"   [ ] Title XVIII, Part B  ",,    [ ] IPF,          [ ] SNF,,  [ ] Swing Bed NF,,,
+boxes:,,   [ ] Title XIX - O/P     ,,    [ ] IRF,          [ ] NF,,  [ ] ICF/MR,,,
+PART V - APPORTIONMENT OF MEDICAL AND OTHER HEALTH SERVICES COSTS,,,,,,,,,,
+,,,,Program Charges,,,Program Cost,,,
+,,,Cost to,,Cost Reimbursed,Cost Reimbursed,,Cost,Cost,
+,,,Charge,,Services,Services Not,PPS,Services,Services Not,
+,,,Ratio from,PPS Reimbursed,Subject to,Subject to, Services,Subject to,Subject to,
+,,,"Worksheet C,",Services,Ded. & Coins.,Ded. & Coins.,(see,Ded. & Coins.,Ded. & Coins.,
+,,,"Part I, col. 9",(see instructions),(see instructions),(see instructions),instructions),(see instructions),(see instructions),
+, Cost Center Description,,1,2,3,4,5,6,7,
+,ANCILLARY SERVICE COST CENTERS,,,,,,,,,
+50, Operating Room,,,,,,,,,50
+51, Recovery Room,,,,,,,,,51
+52, Labor & Delivery Room,,,,,,,,,52
+53, Anesthesiology,,,,,,,,,53
+54, Radiology-Diagnostic,,,,,,,,,54
+55, Radiology-Therapeutic,,,,,,,,,55
+56, Radioisotope,,,,,,,,,56
+57, Computed Tomography (CT) Scan,,,,,,,,,57
+58, Magnetic Resonance Imaging (MRI),,,,,,,,,58
+59, Cardiac Catheterization,,,,,,,,,59
+60, Laboratory,,,,,,,,,60
+61, PBP Clinic Laboratory Services-Prgm. Only,,,,,,,,,61
+62, Whole Blood & Packed Red Blood Cells,,,,,,,,,62
+63," Blood Storing, Processing, & Transfusing",,,,,,,,,63
+64, Intravenous Therapy,,,,,,,,,64
+65, Respiratory Therapy,,,,,,,,,65
+66, Physical Therapy,,,,,,,,,66
+67, Occupational Therapy,,,,,,,,,67
+68, Speech Pathology,,,,,,,,,68
+69, Electrocardiology,,,,,,,,,69
+70, Electroencephalography,,,,,,,,,70
+71, Medical Supplies Charged To Patients,,,,,,,,,71
+72, Implantable Devices Charged to Patients,,,,,,,,,72
+73, Drugs Charged to Patients,,,,,,,,,73
+74, Renal Dialysis,,,,,,,,,74
+75, ASC (Non-Distinct Part),,,,,,,,,75
+76, Other Ancillary (specify),,,,,,,,,76
+,OUTPATIENT SERVICE COST CENTERS,,,,,,,,,
+88, Rural Health Clinic (RHC),,,,,,,,,88
+89, Federally Qualified Health Center (FQHC),,,,,,,,,89
+90, Clinic,,,,,,,,,90
+91, Emergency,,,,,,,,,91
+92, Observation Bed,,,,,,,,,92
+93, Other Outpatient Service (specify),,,,,,,,,93
+,OTHER REIMBURSABLE COST CENTERS,,,,,,,,,
+94, Home Program Dialysis,,,,,,,,,94
+95, Ambulance,,,,,,,,,95
+96, Durable Medical Equipment-Rented,,,,,,,,,96
+97, Durable Medical Equipment-Sold,,,,,,,,,97
+98, Other Reimbursable Cost Center,,,,,,,,,98
+200, Subtotal  (see instructions),,,,,,,,,200
+201, Less PBP Clinic Lab. Services-Program ,,,,,,,,,201
+, Only Charges,,,,,,,,,
+202, Net Charges (line 200 - line 201 ) ,,,,,,,,,202

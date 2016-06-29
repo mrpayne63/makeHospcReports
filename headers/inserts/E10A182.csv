@@ -1,0 +1,17 @@
+,Check,,,   [ ] Hospital,  [ ] CAH,,,
+,applicable box:,,,,,,,
+,,,,,,,,
+,HEALTH INFORMATION TECHNOLOGY DATA COLLECTION AND CALCULATION,,,,,,,
+1," Total hospital discharges as defined in AARA §4102 from Wkst S-3, Part I, line 14, column 15",,,,,,,1
+2," Medicare days from Wkst S-3, Part I, column 6 sum of lines 1, 8-12",,,,,,,2
+3," Medicare HMO days from Wkst S-3, Part I, column 6. line 2",,,,,,,3
+4," Total inpatient bed days from S-3, Part I column 8 sum of lines 1, 8-12",,,,,,,4
+5," Total hospital charges from Wkst C, Part I, column 8 line 200",,,,,,,5
+6," Total hospital charity care charges from Wkst S-10, column 3 line 20",,,,,,,6
+7," CAH only - The reasonable cost incurred for the purchase of certified HIT technology fromWorksheet S-2, Part I line 168",,,,,,,7
+8, Calcualtion of the HIT incentive payment  (see instructions),,,,,,,8
+,,,,,,,,
+,INPATIENT HOSPITAL SERVICES UNDER PPS & CAH,,,,,,,
+30, Initial/interim HIT payment(s).,,,,,,,30
+31, Other Adjustments (specify),,,,,,,31
+32, Balance due provider (line 8 minus line 30 ± line 31),,,,,,,32

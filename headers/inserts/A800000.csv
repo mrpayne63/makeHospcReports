@@ -1,0 +1,65 @@
+,,,,,,
+,,,EXPENSE CLASSIFICATION ON,,,
+DESCRIPTION (1),,,WORKSHEET A TO/FROM WHICH,,Wkst.,
+,,,THE AMOUNT IS TO BE ADJUSTED,,A-7,
+,BASIS/CODE (2),AMOUNT,        COST CENTER,LINE #,Ref.,
+,1,2,3,4,5,
+ Investment income - buildings and fixtures (chapter 2),,, Buildings and Fixtures,1,,1
+ Investment income - movable equipment (chapter 2),,, Movable Equipment,2,,2
+ Investment income - other (chapter 2),,,,,,3
+" Trade, quantity, and time discounts (chapter 8)",,,,,,4
+ Refunds and rebates of expenses (chapter 8),,,,,,5
+ Rental of provider space by suppliers (chapter 8),,,,,,6
+ Telephone services (pay stations excluded) (chapter 21),,,,,,7
+ Television and radio service (chapter 21),,,,,,8
+ Parking lot (chapter 21),,,,,,9
+ Provider-based physician adjustment,Worksheet A-8-2,,,,,10
+" Sale of scrap, waste, etc. (chapter 23)",,,,,,11
+ Related organization transactions (chapter 10),Worksheet A-8-1,,,,,12
+ Laundry and linen service,,,,,,13
+ Cafeteria-employees and guests,,,,,,14
+ Rental of quarters to employee and others,,,,,,15
+ Sale of medical and surgical ,,,,,,16
+ supplies to other than patients,,,,,,
+ Sale of drugs to other than patients,,,,,,17
+ Sale of medical records and abstracts,,,,,,18
+" Nursing school (tuition, fees, books, etc.)",,,,,,19
+ Vending machines,,,,,,20
+" Income from imposition of interest,",,,,,,21
+ finance or penalty charges (chapter 21),,,,,,
+ Interest expense on Medicare overpayments and,,,,,,22
+ borrowings to repay Medicare overpayments,,,,,,
+ Adjustment for respiratory therapy,,,,,,23
+ costs in excess of limitation (chapter 14),Worksheet A-8-3,, Respiratory Therapy,65,,
+ Adjustment for physical therapy costs,,,,,,24
+ in excess of limitation (chapter 14),Worksheet A-8-3,, Physical Therapy,66,,
+ Utilization review - physicians' compensation (chapter 21),,, Utilization Review - SNF,114,,25
+ Depreciation - buildings and fixtures,,, Buildings and Fixtures,1,,26
+ Depreciation - movable equipment,,, Movable Equipment,2,,27
+ Non-physician Anesthetist,,, Nonphysician Anesthetist,19,,28
+ Physicians' assistant,,,,,,29
+ Adjustment for occupational therapy costs,,,,,,30
+ in excess of limitation (chapter 14),Worksheet A-8-3,, Occupational Therapy,67,,
+ Adjustment for speech pathology costs,,,,,,31
+ in excess of limitation (chapter 14),Worksheet A-8-3,, Speech Pathology,68,,
+ CAH HIT Adjustment for Depreciation,,,,,,32
+ and Interest,,,,,,
+ Other adjustments (specify) (3),,,,,,33
+ TOTAL (sum of lines 1 thru 49),,,,,,50
+" (Transfer to Worksheet A, column 6, line 200)",,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+Description - all chapter references in this column pertain to CMS Pub. 15-1,,,,,,
+Basis for adjustment (see instructions),,,,,,
+"     A. Costs - if cost, including applicable overhead, can be determined",,,,,,
+     B. Amount Received - if cost cannot be determined,,,,,,
+Additional adjustments may be made on lines 33 thru 49 and subscripts thereof.,,,,,,
+,,,,,,
+Note:  See instructions for column 5 referencing to Worksheet A-7.,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,40-529

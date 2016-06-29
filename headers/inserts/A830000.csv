@@ -1,0 +1,96 @@
+,Check applicable box:,,      [ ] Occupational          [ ] Physical          [ ] Respiratory          [ ] Speech Pathology,,,,,,
+,PART I - GENERAL INFORMATION,,,,,,,,
+,1, Total number of weeks worked (excluding aides) (see instructions),,,,,,,1
+,2, Line 1 multiplied by 15 hours per week,,,,,,,2
+,3, Number of unduplicated days in which supervisor or therapist was on provider site (see instructions),,,,,,,3
+,4, Number of unduplicated days in which therapy assistant was on provider site but neither supervisor nor therapist was on provider site (see instructions),,,,,,,4
+,5, Number of unduplicated offsite visits - supervisors or therapists (see instructions),,,,,,,5
+,6, Number of unduplicated offsite visits - therapy assistants (include only visits made by therapy assistant and on which,,,,,,,6
+,,  supervisor and/or therapist was not present during the visit(s)) (see instructions),,,,,,,
+,7, Standard travel expense rate,,,,,,,7
+,8, Optional travel expense rate per mile,,,,,,,8
+,,,,Supervisors,dcr,Assistants,Aides,Trainees,
+,,,,1,2,3,4,5,
+,9, Total hours worked,,,,,,,9
+,10, AHSEA (see instructions),,,,,,,10
+,11," Standard travel allowance (columns 1 and 2, one-half of column 2,",,,,,,,11
+,,"  line 10; column 3, one-half of column 3, line 10)",,,,,,,
+,12, Number of travel hours (see instructions),,,,,,,12
+,13, Number of miles driven (see instructions),,,,,,,13
+,PART II - SALARY EQUIVALENCY COMPUTATION,,,,,,,,
+,14," Supervisors (column 1, line 9 times column 1, line 10)",,,,,,,14
+,15," Therapists (column 2, line 9 times column 2, line 10)",,,,,,,15
+,16," Assistants (column 3, line 9 times column 3, line10)",,,,,,,16
+,17, Subtotal allowance amount (sum of lines 14 and 15 for respiratory therapy or lines 14-16 for all others),,,,,,,17
+,18," Aides (column 4, line 9 times column 4, line 10)",,,,,,,18
+,19," Trainees (column 5, line 9 times column 9, line 10)",,,,,,,19
+,20, Total allowance amount (sum of lines 17-19 for respiratory therapy or lines 17 and 18 for all others),,,,,,,20
+,,"If the sum of columns 1 and 2 for respiratory therapy or columns 1 through 3 for physical therapy, speech pathology or occupational therapy, line 9, is greater than line 2, ",,,,,,,
+,,make no entries on lines 21 and 22 and enter on line 23 the amount from line 20.  Otherwise complete lines 21 through 23.,,,,,,,
+,21," Weighted average rate excluding aides and trainees (line 17 divided by sum of columns 1 and 2, line 9 for respiratory therapy or columns 1 through 3, line 9 for all others)",,,,,,,21
+,22, Weighted allowance excluding aides and trainees (line 2 times line 21),,,,,,,22
+,23, Total salary equivalency (see instructions),,,,,,,23
+,Check applicable box:,,      [ ] Occupational          [ ] Physical          [ ] Respiratory          [ ] Speech Pathology,,,,,,
+,PART III - STANDARD AND OPTIONAL TRAVEL ALLOWANCE AND TRAVEL EXPENSE COMPUTATION - PROVIDER SITE,,,,,,,,
+,   Standard Travel Allowance,,,,,,,,
+,24," Therapists (line 3 times column 2, line 11)",,,,,,,24
+,25," Assistants (line 4 times column 3, line 11)",,,,,,,25
+,26, Subtotal (line 24 for respiratory therapy or sum of lines 24 and 25 for all others),,,,,,,26
+,27, Standard travel expense (line 7 times line 3 for respiratory therapy or sum of lines 3 and 4 for all others),,,,,,,27
+,28, Total standard travel allowance and standard travel expense at the provider site (sum of lines 26 and 27),,,,,,,28
+,   Optional Travel Allowance and Optional Travel Expense,,,,,,,,
+,29," Therapists (column 2, line 10 times the sum of columns 1 and 2, line 12 )",,,,,,,29
+,30," Assistants (column 3, line 10 times column 3, line 12)",,,,,,,30
+,31, Subtotal (line 29 for respiratory therapy or sum of lines 29 and 30 for all others),,,,,,,31
+,32," Optional travel expense (line 8 times columns 1 and 2, line 13 for respiratory therapy or sum of columns 1-3, line 13 for all others)",,,,,,,32
+,33, Standard travel allowance and standard travel expense (line 28),,,,,,,33
+,34, Optional travel allowance and standard travel expense (sum of lines 27 and 31),,,,,,,34
+,35, Optional travel allowance and optional travel expense (sum of lines 31 and 32),,,,,,,35
+,PART IV - STANDARD AND OPTIONAL TRAVEL ALLOWANCE AND TRAVEL EXPENSE COMPUTATION - SERVICES OUTSIDE PROVIDER SITE,,,,,,,,
+,   Standard Travel Expense,,,,,,,,
+,36," Therapists (line 5 times column 2, line 11)",,,,,,,36
+,37," Assistants (line 6 times column 3, line 11)",,,,,,,37
+,38, Subtotal (sum of lines 36 and 37),,,,,,,38
+,39, Standard travel expense (line 7 times the sum of lines 5 and 6),,,,,,,39
+,   Optional Travel Allowance and Optional Travel Expense,,,,,,,,
+,40," Therapists (sum of columns 1 and 2, line 9 times column 2, line 10)",,,,,,,40
+,41," Assistants (column 3, line 9 times column 3, line 10)",,,,,,,41
+,42, Subtotal (sum of lines 40 and 41),,,,,,,42
+,43," Optional travel expense (line 8 times the sum of columns 1-3, line 13)",,,,,,,43
+,   Total Travel Allowance and Travel Expense - Offsite Services:  Complete one of the following,,,,,,,,
+,"   three lines 44, 45, or 46, as appropriate.",,,,,,,,
+,44, Standard travel allowance and standard travel expense (sum of lines 38 and 39)  (see instructions),,,,,,,44
+,45, Optional travel allowance and standard travel expense (sum of lines 39 and 42)  (see instructions),,,,,,,45
+,46, Optional travel allowance and optional travel expense (sum of lines 42 and 43)  (see instructions),,,,,,,46
+,PART V - OVERTIME COMPUTATION,,,,,,,,
+,,,,Therapists,Assistants,Aides,Trainees,Total,
+,,,,1,2,3,4,5,
+,47," Overtime hours worked during reporting period (if column 5, ",,,,,,,47
+,," line 47, is zero or equal to or greater than 2,080, do not complete ",,,,,,,
+,, lines 48-55 and enter zero in each column of line 56),,,,,,,
+,48, Overtime rate (see instructions),,,,,,,48
+,49, Total overtime (including base and overtime allowance) (multiply,,,,,,,49
+,, line 47 times line 48),,,,,,,
+,      CALCULATION OF LIMIT,,,,,,,,
+,50, Percentage of overtime hours by category (divide the hours in each,,,,,,,50
+,," column on line 47 by the total overtime worked in column 5, line 47)",,,,,,,
+,51, Allocation of provider's standard work year for one full-time ,,,,,,,51
+,, employee times the percentages on line 50) (see instructions),,,,,,,
+,      DETERMINATION OF OVERTIME ALLOWANCE,,,,,,,,
+,52, Adjusted hourly salary equivalency amount (see instructions),,,,,,,52
+,53, Overtime cost limitation (line 51 times line 52),,,,,,,53
+,54, Maximum overtime cost (enter the lesser of line 49 or line 53),,,,,,,54
+,55, Portion of overtime already included in hourly computation at the AHSEA (multiply ,,,,,,,55
+,, line 47 times line 52),,,,,,,
+,56, Overtime allowance (line 54 minus line 55 - if negative enter zero) ( Enter in column 5  the,,,,,,,56
+,," sum of columns 1, 3, and 4 for respiratory therapy and columns 1 through 3 for all others.)",,,,,,,
+,PART VI - COMPUTATION OF THERAPY LIMITATION AND EXCESS COST ADJUSTMENT,,,,,,,,
+,57, Salary equivalency amount (from line 23),,,,,,,57
+,58," Travel allowance and expense - provider site (from lines 33, 34, or 35))",,,,,,,58
+,59," Travel allowance and expense - Offsite services (from lines 44, 45, or 46)",,,,,,,59
+,60," Overtime allowance (from column 5, line 56)",,,,,,,60
+,61, Equipment cost (see instructions),,,,,,,61
+,62, Supplies (see instructions),,,,,,,62
+,63, Total allowance (sum of lines 57-62),,,,,,,63
+,64, Total cost of outside supplier services (from provider records),,,,,,,64
+,65," Excess over limitation (line 64 minus line 63; if negative, enter zero)",,,,,,,65

@@ -1,0 +1,87 @@
+,,,,,,
+,DIRECT GRADUATE MEDICAL EDUCATION (GME) ,,,,,
+,& ESRD OUTPATIENT DIRECT MEDICAL ,,,,,
+,EDUCATION COSTS,,,,,
+,Check,,   [ ]  Title V,,,
+,applicable,,   [ ]  Title XVIII,,,
+,box:,,   [ ]  Title XIX,,,
+,COMPUTATION OF TOTAL DIRECT GME AMOUNT,,,,,
+1," Unweighted resident FTE count for allopathic and osteopathic programs for cost reporting periods ending on or before December 31, 1996",,,,,1
+2, Unweighted FTE resident cap add-on for new programs per 42 CFR 413.79(e)(1)  (see instructions),,,,,2
+3, Amount of reduction to Direct GME cap under section 422 of MMA ,,,,,3
+, 3.01 Direct GME cap reduction amount under ACA §5503 in accordance with CFR §413.79 (m).  (see instructions ,,,,,3.01
+, for cost reporting periods straddling 7/1/2011),,,,,
+4, Adjustment (plus or minus) to the FTE cap for allopathic and osteopathic programs due to a Medicare GME  ,,,,,4
+, affiliation agreement (42 CFR §413.75(b) and § 413.79 (f)),,,,,
+, 4.01ACA Section 5503 increase to the Direct GME FTE Cap (see instructions for cost reporting periods straddling 7/1/2011),,,,,4.01
+, 4.02ACA Section 5506 number of additional direct GME FTE cap slots  (see instructions for cost reporting periods straddling 7/1/2011),,,,,4.02
+5, FTE adjusted cap (line 1 plus line 2 minus line 3 and 3.01 plus or minus line 4 plus line 4.01 plus line 4.02 plus applicable subscripts,,,,,5
+6, Unweighted resident FTE count for allopathic and osteopathic programs for the current year from your records  (see instructions),,,,,6
+7, Enter the lesser of line 5 or line 6,,,,,7
+,,,Primary Care,Other ,Total,
+,,,1,2,3,
+8, Weighted FTE count for physicians in an allopathic and osteopathic program for,,,,,8
+, the current year,,,,,
+9," If line 6 is less than 5 enter the amount from line 8, otherwise  multiply line 8 times",,,,,9
+, the result of line 5 divided by the amount on line 6,,,,,
+10, Weighted dental and podiatric resident FTE count for the current year ,,,,,10
+11, Total weighted FTE count,,,,,11
+12, Total weighted resident FTE count for the prior cost reporting year  (see instructions),,,,,12
+13, Total weighted resident FTE count for the penultimate cost reporting year  (see instr.),,,,,13
+14, Rolling average FTE count (sum of lines 11 through 13 divided by 3),,,,,14
+15, Adjustment for residents in initial years of new programs,,,,,15
+16, Adjustment for residents displaced by program or hospital closure,,,,,16
+17, Adjusted rolling average FTE count,,,,,17
+18, Per resident amount,,,,,18
+19, Approved amount for resident costs,,,,,19
+20, Additional unweighted allopathic and osteopathic direct GME FTE resident cap slots received under 42 Sec. 413.79(c )(4),,,,,20
+21, GME FTE weighted resident count over cap  (see instructions),,,,,21
+22, Allowable additional direct GME FTE resident count  (see instructions),,,,,22
+23, Enter the locality adjustment national average per resident amount  (see instructions),,,,,23
+24, Multiply line 22 time line 23,,,,,24
+25, Total direct GME amount (sum of lines 19 and 24),,,,,25
+, COMPUTATION OF PROGRAM PATIENT LOAD,,Inpatient Part A,Managed Care,,
+26, Inpatient days,,,,,26
+27, Total inpatient days,,,,,27
+28, Ratio of inpatient days to total inpatient days,,,,,28
+29, Program direct GME amount,,,,,29
+30, Reduction for nursing/allied health,,,,,30
+31, Net Program direct GME amount,,,,,31
+, DIRECT MEDICAL EDUCATION COSTS FOR ESRD COMPOSITE RATE - TITLE XVIII ONLY (NURSING SCHOOL AND,,,,,
+, PARAMEDICAL EDUCATION COSTS),,,,,
+32," Renal dialysis direct medical education costs (from Worksheet B, Part I, sum of columns 20 and 23, lines 74 and 94)",,,,,32
+33," Renal dialysis and home dialysis total charges (Worksheet C, Part I, column 8, sum of lines 74 and 94)",,,,,33
+34, Ratio of direct medical education costs to total charges (line 32 ÷ line 33),,,,,34
+35, Medicare outpatient ESRD charges  (see instructions),,,,,35
+36, Medicare outpatient ESRD direct medical education costs (line 34 x line 35),,,,,36
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,DIRECT GRADUATE MEDICAL EDUCATION (GME) ,,, PROVIDER CCN:, PERIOD:, WORKSHEET E-4
+,& ESRD OUTPATIENT DIRECT MEDICAL ,,,, FROM ____________, (Cont.)
+,EDUCATION COSTS,,, ________________, TO _______________,
+,Check,,   [ ]  Title V,,,
+,applicable,,   [ ]  Title XVIII,,,
+,box:,,   [ ]  Title XIX,,,
+,APPORTIONMENT OF MEDICARE REASONABLE COST OF GME,,,,,
+,Part A Reasonable Cost,,,,,
+37, Reasonable cost  (see instructions),,,,,37
+38," Organ acquisition costs (Worksheet D-4, Part III, column 1, line 69)",,,,,38
+39," Cost of teaching physicians (Worksheet D-5, Part II, column 3, line 20)",,,,,39
+40, Primary payer payments  (see instructions),,,,,40
+41, Total Part A reasonable cost (sum of lines 37 through 39 minus line 40),,,,,41
+,Part B Reasonable Cost ,,,,,
+42, Reasonable cost  (see instructions),,,,,42
+43, Primary payer payments  (see instructions),,,,,43
+44, Total Part B reasonable cost (line 42 minus line 43),,,,,44
+45, Total reasonable cost (sum of lines 41 and 44),,,,,45
+46, Ratio of Part A reasonable cost to total reasonable cost (line 41 ÷ line 45),,,,,46
+47, Ratio of Part B reasonable cost to total reasonable cost (line 44 ÷ line 45),,,,,47
+,ALLOCATION OF MEDICARE DIRECT GME COSTS BETWEEN PART A AND PART B,,,,,
+48, Total program GME payment (line 31),,,,,48
+49, Part A Medicare GME payment (line 46 x 48)(Title XVIII only)  (see instructions),,,,,49
+50, Part B Medicare GME payment (line 47 x 48) (title XVIII only)  (see instructions),,,,,50

@@ -1,0 +1,18 @@
+,HOSPICE IDENTIFICATION DATA ,, PROVIDER CCN:,, PERIOD:,, WORKSHEET S-9,
+,,, ________________,, FROM ___________,, PARTS I & II,
+,,, HOSPICE NO.:,, TO ______________,,,
+,,, ________________,,,,,
+,,,,,,,,
+,PART I - ENROLLMENT DAYS,,,,,,,
+,,Unduplicated Days,,,,,,
+,,,,Title XVIII,Title XIX,,Total,
+,,,,Skilled Nursing,Nursing,All,(sum of,
+,,Title XVIII,Title XIX,Facility ,Facility,Other,"cols. 1, 2 & 5)",
+,,1,2,3,4,5,6,
+1, Continuous Home Care,,,,,,,1
+2, Routine Home Care,,,,,,,2
+3, Inpatient Respite Care ,,,,,,,3
+4, General Inpatient Care,,,,,,,4
+5, Total Hospice Days,,,,,,,5
+,,,,,,,,
+,"NOTE:  Parts I & II, columns 1 and 2 also include the days reported in columns 3 and 4 .",,,,,,,

@@ -1,0 +1,29 @@
+,HOSPITAL AND HOSPITAL HEALTH CARE COMPLEX,,,, PROVIDER CCN:, PERIOD,, WORKSHEET S-2,
+,REIMBURSEMENT QUESTIONNAIRE,,,,, FROM __________,, Part II,
+,,,,, ______________, TO _____________,,,
+,General Instruction: ,,Enter Y for all YES responses.  Enter N for all NO responses.,,,,,,
+,,,Enter all dates in the mm/dd/yyyy format.,,,,,,
+,,,,,,,,,
+,COMPLETED BY ALL HOSPITALS,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,Y/N ,Date,
+,Provider Organization and Operation,,,,,,1,2,
+1, Has the provider changed ownership immediately prior to the beginning of the cost reporting period? ,,,,,,,,1
+," If yes, enter the date of the change in column 2.  (see instructions)",,,,,,,,
+,,,,,,Y/N ,Date,V/I,
+,,,,,,1,2,3,
+2, Has the provider terminated participation in the Medicare Program?,,,,,,,,2
+," If yes, enter in column 2 the date of termination and in column 3, ""V"" for voluntary or ""I"" for involuntary.",,,,,,,,
+3," Is the provider involved in business transactions, including management contracts, with individuals or entities ",,,,,,,,3
+," (e.g., chain home offices, drug or medical supply companies) that are related to the provider or its officers, medical",,,,,,,,
+," staff, management personnel, or members of the board of directors through ownership, control, or family and",,,,,,,,
+, other similar relationships?  (see instructions),,,,,,,,
+,,,,,,,,,
+,,,,,,Y/N ,Type,Date,
+,Financial Data and Reports,,,,,,1,2,3
+4, Column 1:  Were the financial statements prepared by a Certified Public Accountant?,,,,,,,,4
+," Column 2:  If yes, enter ""A"" for Audited, ""C"" for Compiled, or ""R"" for Reviewed.  Submit complete copy or enter",,,,,,,,
+," date available in column 3.  (see instructions)  If no, see instructions.",,,,,,,,
+5, Are the cost report total expenses and total revenues different from those on the filed financial statements? ,,,,,,,,5
+," If yes, submit reconciliation.",,,,,,,,

@@ -1,0 +1,61 @@
+,Check,   [ ]  Title V,   [ ]  Hospital, [ ]  Subprovider (other),  [ ] Swing-Bed SNF,   [ ]  PPS,
+,applicable,"   [ ]  Title XVIII, Part A",   [ ]  IPF, [ ]  SNF,  [ ]  Swing-Bed NF,   [ ]  TEFRA,
+,boxes:,   [ ]  Title XIX,   [ ]  IRF, [ ]  NF,  [ ]  ICF/MR,   [ ]  Other,
+,,,,Ratio of Cost,Inpatient,Inpatient Program Costs,
+,COST  CENTER  DESCRIPTION,,,to Charges,Program Charges,(col. 1 x col. 2),
+,,,,1,2,3,
+,INPATIENT ROUTINE SERVICE COST CENTERS,,,,,,
+30, Adults and Pediatrics (General Routine Care),,,,,,30
+31, Intensive Care Unit,,,,,,31
+32, Coronary Care Unit,,,,,,32
+33, Burn Intensive Care Unit,,,,,,33
+34, Surgical Intensive Care Unit,,,,,,34
+35, Other Special Care (specify),,,,,,35
+40, Subprovider IPF,,,,,,40
+41, Subprovider IRF,,,,,,41
+42, Subprovider (Specify),,,,,,42
+43, Nursery,,,,,,43
+,ANCILLARY SERVICE COST CENTERS,,,,,,
+50, Operating Room,,,,,,50
+51, Recovery Room,,,,,,51
+52, Labor Room and Delivery Room,,,,,,52
+53, Anesthesiology,,,,,,53
+54, Radiology-Diagnostic,,,,,,54
+55, Radiology-Therapeutic,,,,,,55
+56, Radioisotope,,,,,,56
+57, Computed Tomography (CT) Scan,,,,,,57
+58, Magnetic Resonance Imaging (MRI),,,,,,58
+59, Cardiac Catheterization,,,,,,59
+60, Laboratory,,,,,,60
+61, PBP Clinical Laboratory Services-Prgm. Only,,,,,,61
+62, Whole Blood & Packed Red Blood Cells,,,,,,62
+63," Blood Storing, Processing, & Trans.",,,,,,63
+64, Intravenous Therapy,,,,,,64
+65, Respiratory Therapy,,,,,,65
+66, Physical Therapy,,,,,,66
+67, Occupational Therapy,,,,,,67
+68, Speech Pathology,,,,,,68
+69, Electrocardiology,,,,,,69
+70, Electroencephalography,,,,,,70
+71, Medical Supplies Charged to Patients,,,,,,71
+72, Implantable Devices Charged to Patients,,,,,,72
+73, Drugs Charged to Patients,,,,,,73
+74, Renal Dialysis,,,,,,74
+75, ASC (Non-Distinct Part),,,,,,75
+76, Other Ancillary (specify),,,,,,76
+,OUTPATIENT SERVICE COST CENTERS,,,,,,
+88, Rural Health Clinic (RHC),,,,,,88
+89, Federally Qualified Health Center (FQHC),,,,,,89
+90, Clinic,,,,,,90
+91, Emergency,,,,,,91
+92, Observation Beds (see instructions),,,,,,92
+93, Other Outpatient Service (specify),,,,,,93
+,OTHER REIMBURSABLE COST CENTERS,,,,,,
+94, Home Program Dialysis,,,,,,94
+95, Ambulance Services,,,,,,95
+96, Durable Medical Equipment-Rented,,,,,,96
+97, Durable Medical Equipment-Sold,,,,,,97
+98, Other Reimbursable (specify),,,,,,98
+200, Total (sum of lines 50-94 and 96-98),,,,,,200
+201, Less PBP Clinic Laboratory Services-Program only charges (line 61),,,,,,201
+202, Net Charges (line 200 minus line 201),,,,,,202

@@ -1,0 +1,57 @@
+,Check,   [ ] HEART,  [ ] LIVER, [ ] PANCREAS,, [ ] ISLET,,
+,applicable box:,   [ ] KIDNEY,  [ ] LUNG, [ ] INTESTINE,, [ ] OTHER (specify),,
+,,,,,,,,
+,PART I - COMPUTATION OF ORGAN ACQUISITION COSTS (INPATIENT ROUTINE AND ANCILLARY SERVICES),,,,,,,
+,,,Inpatient,,,Organ,,
+,     Computation of Inpatient,,Routine Organ,,Per Diem Costs,Acquisition,Cost,
+,     Routine Service Costs ,,Charges,,"(from Wkst. D-1, Part II)",Days,(col. 2 x col. 3),
+,     Applicable to Organ Acquisition,,1,D,2,3,4,
+1, Adults and Pediatrics,,,38,,,,1
+2, Intensive Care,,,43,,,,2
+3, Coronary Care,,,44,,,,3
+4, Burn Intensive Care Unit,,,45,,,,4
+5, Surgical Intensive Care Unit,,,46,,,,5
+6, Other Special Care (specify),,,47,,,,6
+7, TOTAL (sum of lines 1-6),,,,,,,7
+,,,,,,,,
+,,,,,Ratio of Cost,Organ,Organ,
+,,,,,to Charges,Acquisition,Acquisition,
+,    Computation of Ancillary,,,,(from,Ancillary,Ancillary,
+,    Service Costs Applicable,,,,Wkst. C),Charges,Costs,
+,    to Organ Acquisition,,,C,1,2,3,
+8, Operating Room,,,50,,,,8
+9, Recovery Room,,,51,,,,9
+10, Labor Room & Delivery Room ,,,52,,,,10
+11, Anesthesiology,,,53,,,,11
+12, Radiology-Diagnostic,,,54,,,,12
+13, Radiology-Therapeutic,,,55,,,,13
+14, Radioisotope,,,56,,,,14
+15, Computed Tomography (CT) Scan,,,57,,,,15
+16, Magnetic Resonance Imaging (MRI),,,58,,,,16
+17, Cardiac Catheterization,,,59,,,,17
+18, Laboratory,,,60,,,,18
+19, PBP Clinical Laboratory Services-Program Only,,,61,,,,19
+20, Whole Blood & Packed Red Blood Cells,,,62,,,,20
+21," Blood Storage, Processing, & Transfusing",,,63,,,,21
+22, IV Therapy,,,64,,,,22
+23, Respiratory Therapy,,,65,,,,23
+24, Physical Therapy,,,66,,,,24
+25, Occupational Therapy,,,67,,,,25
+26, Speech Pathology,,,68,,,,26
+27, Electrocardiology,,,69,,,,27
+28, Electroencephalography,,,70,,,,28
+29, Medical Supplies Charged to Patients,,,71,,,,29
+30, Implantable Devices Charged to Patients,,,72,,,,30
+31, Drugs Charged to Patients,,,73,,,,31
+32, Renal Dialysis,,,74,,,,32
+33, ASC (non-distinct part),,,75,,,,33
+34, Other Ancillary (specify),,,76,,,,34
+35, Rural Health Clinic (RHC),,,88,,,,35
+36, Federally Qualified Health Center (FQHC),,,89,,,,36
+37, Clinic,,,90,,,,37
+38, Emergency Room,,,91,,,,38
+39, Observation Beds,,,92,,,,39
+40, Other Outpatient Service (specify),,,93,,,,40
+41, TOTAL (sum of lines 8-40),,,,,,,41
+,,,,,,,,
+,C = Worksheet C line numbers,,D = Worksheet D-1 line numbers,,,,,

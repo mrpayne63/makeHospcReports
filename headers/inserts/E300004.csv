@@ -1,0 +1,44 @@
+,Check,,   [ ] Hospital,,,
+,applicable,,   [ ] Subprovider (Other) ,,,
+,box:,,,,,
+,,,,,,
+,PART IV - CALCULATION OF MEDICARE REIMBURSEMENT SETTLEMENT UNDER LTCH PPS ,,,,,
+,,,,,,
+1, Net Federal PPS payment  (see instructions),,,,,1
+2, Outlier payments,,,,,2
+3, Total PPS payments (sum of lines 1 and 2),,,,,3
+4, Nursing and allied health managed care payments  (see instructions),,,,,4
+5, Organ acquisition,,,,,5
+6, Cost of teaching physicians,,,,,6
+7, Subtotal  (see instructions),,,,,7
+8, Primary payer payments,,,,,8
+9, Subtotal (line 7 less line 8). ,,,,,9
+10, Deductibles,,,,,10
+11, Subtotal (line 9 minus line 10),,,,,11
+12, Coinsurance,,,,,12
+13, Subtotal (line 11 minus line 12),,,,,13
+14, Allowable bad debts (exclude bad debts for professional services)  (see instructions),,,,,14
+15, Adjusted reimbursable bad debts (see instructions),,,,,15
+16, Allowable bad debts for dual eligible beneficiaries  (see instructions),,,,,16
+17, Subtotal (sum of lines 13 and 15) ,,,,,17
+18," Direct graduate medical education payments (from Worksheet E-4, line 49)",,,,,18
+19, Other pass through costs  (see instructions),,,,,19
+20, Outlier payments reconciliation,,,,,20
+21, Other adjustments (specify)  (see instructions),,,,,21
+22, Total amount payable to the provider  (see instructions),,,,,22
+23, Interim payments,,,,,23
+24, Tentative settlement (for contractor use only),,,,,24
+25, Balance due provider/program (line 22 minus the sum lines 23 and 24),,,,,25
+26," Protested amounts (nonallowable cost report items) in accordance with CMS Pub. 15-2, section 115.2",,,,,26
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,TO BE COMPLETED BY CONTRACTOR,,,,,
+50," Original PPS payment and outlier amount from Worksheet E-3, Part IV, line 3  (see instructions)",,,,,50
+51, Outlier reconciliation adjustment amount  (see instructions),,,,,51
+52, The rate used to calculate the Time Value of Money  (see instructions),,,,,52
+53, Time Value of Money  (see instructions),,,,,53

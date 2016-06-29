@@ -1,0 +1,41 @@
+,Check applicable box:,,,   [ ] Title V          [ ] Title XVIII          [ ] Title XIX,,,,,,,,,,,
+,PART I - COMPUTATION OF THE AGGREGATE PROGRAM COST,,,,,,,,,,,,,,
+,Cost Per Visit Computation,,,,,,,,,Program Visits,,,Cost of Services,,
+,,"From,",Facility,Shared,,,Average,,                    Part B,,,                    Part B,,,
+,,Wkst.,Costs,Ancillary,Total,,Cost,,Not,,,Not,,Total,
+,,"H-2,",(from,Costs,HHA,,Per Visit,,Subject to,Subject to,,Subject to,Subject to,Program Cost,
+,Patient Services,"Part I,","Wkst. H-2,",(from,Costs,Total,(col. 3 ,,Deductibles ,Deductibles ,,Deductibles ,Deductibles ,(sum of,
+,,"col. 28,",Part I),Part II),(cols. 1 + 2),Visits,÷ col. 4),Part A,& Coinsurance,& Coinsurance,Part A,& Coinsurance,& Coinsurance,cols. 9-10),
+,,line,1,2,3,4,5,6,7,8,9,10,11,12,
+1,Skilled Nursing Care,2,,,,,,,,,,,,,1
+2,Physical Therapy,3,,,,,,,,,,,,,2
+3,Occupational Therapy,4,,,,,,,,,,,,,3
+4,Speech Pathology,5,,,,,,,,,,,,,4
+5,Medical Social Services,6,,,,,,,,,,,,,5
+6,Home Health Aide,7,,,,,,,,,,,,,6
+7,Total (sum of lines 1-6),,,,,,,,,,,,,,7
+,Limitation Cost Computation,,,,,,,,,,,Program Visits,,,
+,,,,,,,,,,,,,                    Part B,,
+,,,,,,,,,,,,,Not Subject to,Subject to,
+,Patient Services,,,,,,,,,,CBSA,,Deductibles ,Deductibles ,
+,,,,,,,,,,,No. (1),Part A,& Coinsurance,& Coinsurance,
+,,,,,,,,,,,1,2,3,4,
+8, Skilled Nursing Care,,,,,,,,,,, , ,,8
+9, Physical Therapy,,,,,,,,,,,,,,9
+10, Occupational Therapy,,,,,,,,,,,,,,10
+11, Speech Pathology,,,,,,,,,,,,,,11
+12, Medical Social Services,,,,,,,,,,,,,,12
+13, Home Health Aide,,,,,,,,,,,,,,13
+14, Total (sum of lines 8-13),,,,,,,,,,,,,,14
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,Supplies and Drugs Cost,,,,,,,,,                  Program Covered Charges,,,,Cost of Services,
+,Computations,,,,Facility,Shared,,,,,                    Part B,,,Part B,
+,,,From,Costs,Ancillary,Total,Total,,,Not,,,Not,,
+,,,Wkst. H-2,(from ,Costs,HHA,Charges,Ratio,,Subject to,Subject to,,Subject to,Subject to,
+,Other Patient Services,,"Part I,","Wkst. H-2,",(from,Costs,(from HHA,(col. 3,,Deductibles ,Deductibles ,,Deductibles ,Deductibles ,
+,,,"col. 28,",Part I),Part II),(cols. 1 + 2),Record),÷ col. 4),Part A,& Coinsurance,& Coinsurance,Part A,& Coinsurance,& Coinsurance,
+,,,line,1,2,3,4,5,6,7,8,9,10,11,
+15, Cost of Medical Supplies,,8,,,,,,,,,,,,15
+16, Cost of Drugs,,9,,,,,,,,,,,,16

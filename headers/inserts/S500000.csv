@@ -1,0 +1,37 @@
+,RENAL DIALYSIS STATISTICS,,,,,,,,
+,,,           Outpatient,,              Training,,              Home,,
+,,,,,Hemo-,CAPD,Hemo-,CAPD,
+,,DESCRIPTION,Regular,High Flux,dialysis,CCPD,dialysis,CCPD,
+,,,1,2,3,4,5,6,
+1, Number of patients in program at,,,,,,,,1
+, end of cost reporting period,,,,,,,,
+2, Number of times per week patient,,,,,,,,2
+, receives dialysis,,,,,,,,
+3, Average patient dialysis time including setup,,,,,,,,3
+4, CAPD exchanges per day,,,,,,,,4
+5, Number of days in year dialysis furnished,,,,,,,,5
+6, Number of stations,,,,,,,,6
+7, Treatment capacity per day per station,,,,,,,,7
+8, Utilization (see instructions),,,,,,,,8
+9, Average times dialyzers re-used,,,,,,,,9
+10, Percentage of patients re-using dialyzers,,,,,,,,10
+,,,,,,,,,
+,TRANSPLANT INFORMATION,,,,,,,,
+11, Number of patients on transplant list,,,,,,,,11
+12, Number of patients transplanted during the cost reporting period,,,,,,,,12
+,,,,,,,,,
+,EPOETIN,,,,,,,,
+13, Net costs of Epoetin furnished to all maintenance dialysis patients by the provider,,,,,,,,13
+14, Epoetin amount from Worksheet A for home dialysis program,,,,,,,,14
+15, Number of EPO units furnished relating to the renal dialysis department,,,,,,,,15
+16, Number of EPO units furnished relating to the home dialysis department,,,,,,,,16
+,,,,,,,,,
+,ARANESP,,,,,,,,
+17, Net costs of ARANESP furnished to all maintenance dialysis patients by the provider,,,,,,,,17
+18, ARANESP amount from Worksheet A for home dialysis program,,,,,,,,18
+19, Number of ARANESP units furnished relating to the renal dialysis department,,,,,,,,19
+20, Number of ARANESP units furnished relating to the home dialysis department,,,,,,,,20
+,,,,,,,,,
+,,,,,,,,,
+,"PHYSICIAN PAYMENT METHOD (Enter ""X"" for applicable method(s))",,,,,,,,
+21, MCP_________,,INITIAL METHOD__________,,,,,,21

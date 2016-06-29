@@ -1,0 +1,7 @@
+,Check,   [ ]  Title V,   [ ]  Hospital, [ ]  Subprovider (other),  [ ] Swing-Bed SNF,   [ ]  PPS
+,applicable,"   [ ]  Title XVIII, Part A",   [ ]  IPF, [ ]  SNF,  [ ]  Swing-Bed NF,   [ ]  TEFRA
+,boxes:,   [ ]  Title XIX,   [ ]  IRF, [ ]  NF,  [ ]  ICF/MR,   [ ]  Other
+,,,,Ratio of Cost,Inpatient,Inpatient Program Costs
+,COST  CENTER  DESCRIPTION,,,to Charges,Program Charges,(col. 1 x col. 2)
+,,,,1,2,3
+,INPATIENT ROUTINE SERVICE COST CENTERS,,,,,

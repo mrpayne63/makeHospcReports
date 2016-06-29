@@ -1,0 +1,27 @@
+,,,,,,
+,PART VI - CALCULATION OF REIMBURSEMENT SETTLEMEMENT - ALL OTHER HEALTH SERVICES FOR TITLE XVIII PART A PPS SNF SERVICES,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+, PROSPECTIVE PAYMENT AMOUNT (SEE INSTRUCTIONS),,,,,
+1, Resource Utilization Group (RUGS) payment,,,,,1
+2, Routine service other pass through costs,,,,,2
+3, Ancillary service other pass through costs,,,,,3
+4, Subtotal (sum of lines 1 through 3),,,,,4
+ , COMPUTATION OF NET COST OF COVERED SERVICES,,,,,
+5, Medical and other services,,,,,5
+6, Deductibles,,,,,6
+7, Coinsurance,,,,,7
+8, Allowable bad debts  (see instructions),,,,,8
+9, Reimbursable bad debts for dual eligible beneficiaries  (see instructions),,,,,9
+10, Allowable reimbursable bad debts  (see instructions),,,,,10
+11, Utilization review,,,,,11
+12," Subtotal (Sum of lines 4, 5 minus 6 & 7 plus 10 and 11)  (see instructions)",,,,,12
+13, Inpatient primary payer payments,,,,,13
+14, Other adjustments (specify)  (see instructions),,,,,14
+15, Subtotal (line 12 minus 13  ± lines 14,,,,,15
+16, Interim payments,,,,,16
+17, Tentative settlement (for contractor use only),,,,,17
+18, Balance due provider/program (line 15 minus the sum of lines 16 and 17) ,,,,,18
+19, Protested amounts (nonallowable cost report items) in accordance with CMS,,,,,19
+," Pub. 15-2, section 115.2",,,,,

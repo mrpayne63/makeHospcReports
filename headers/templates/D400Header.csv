@@ -1,0 +1,8 @@
+,Check,   [ ] HEART,  [ ] LIVER, [ ] PANCREAS,, [ ] ISLET,
+,applicable box:,   [ ] KIDNEY,  [ ] LUNG, [ ] INTESTINE,, [ ] OTHER (specify),
+,,,,,,,
+,PART I - COMPUTATION OF ORGAN ACQUISITION COSTS (INPATIENT ROUTINE AND ANCILLARY SERVICES),,,,,,
+,,,Inpatient,,,Organ,
+,     Computation of Inpatient,,Routine Organ,,Per Diem Costs,Acquisition,Cost
+,     Routine Service Costs ,,Charges,,"(from Wkst. D-1, Part II)",Days,(col. 2 x col. 3)
+,     Applicable to Organ Acquisition,,1,D,2,3,4

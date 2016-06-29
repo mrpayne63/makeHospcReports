@@ -1,0 +1,45 @@
+,HOSPITAL-BASED RURAL HEALTH CLINIC/,,,,,,,, PROVIDER CCN:,,,, PERIOD:,,, WORKSHEET S-8,,
+,FEDERALLY QUALIFIED HEALTH CENTER,,,,,,,, ________________,,,, FROM ___________,,,,,
+,STATISTICAL DATA,,,,,,,, COMPONENT CCN:,,,, TO ______________,,,,,
+,,,,,,,,, ________________,,,,,,,,,
+,Check ,,  [  ]  RHC,,,,,,,,,,,,,,,
+,applicable box:,,  [  ]  FQHC,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,Clinic Address and Identification:,,,,,,,,,,,,,,,,,
+1, Street:,,,,,,,,,,,,,,,,,1
+2, City:,,,State:,,,Zip Code:,,,,County:,,,,,,,2
+3," FQHCs ONLY:  Designation - Enter ""R"" for rural or ""U"" for urban",,,,,,,,,,,,,,,,,3
+,,,,,,,,,,,,,,,,,,
+,Source of Federal Funds:,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,Grant Award,,,,Date,,
+,,,,,,,,,,,,1,,,,2,,
+4," Community Health Center (Section 330(d), PHS Act)",,,,,,,,,,,,,,,,,4
+5," Migrant Health Center (Section 329(d), PHS Act)",,,,,,,,,,,,,,,,,5
+6," Health Services for the Homeless (Section 340(d), PHS Act)",,,,,,,,,,,,,,,,,6
+7, Appalachian Regional Commission,,,,,,,,,,,,,,,,,7
+8, Look-alikes,,,,,,,,,,,,,,,,,8
+9, Other (specify),,,,,,,,,,,,,,,,,9
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,1,2,
+10," Does this facility operate as other than an RHC or FQHC?  Enter ""Y"" for yes or ""N"" for no in column 1.",,,,,,,,,,,,,,,,,10
+," If yes, indicate the number of other operations in column 2.",,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,Facility hours of operations (1),,,,,,,,,,,,,,,,,
+,,,,Sunday,,Monday,,Tuesday,,Wednesday,,Thursday,,Friday,,Saturday,,
+,Type Operation,,,from,to,from,to,from,to,from,to,from,to,from,to,from,to,
+,0,,,1,2,3,4,5,6,7,8,9,10,11,12,13,14,
+11, Clinic,,,,,,,,,,,,,,,,,11
+,Enter clinic hours of operation on line 11 and other type operations on subscripts of line 11 (both type and hours of operation).,,,,,,,,,,,,,,,,,
+,"List hours of operation based on a 24 hour clock.  For example:  8:00am is 0800, 6:30pm is 1830, and midnight is 2400.",,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,1,2,
+12, Have you received an approval for an exception to the productivity standard?,,,,,,,,,,,,,,,,,12
+13," Is this a consolidated cost report as defined in CMS Pub. 27, section 508(D)?  Enter ""Y"" for yes or ""N"" for no in column 1.",,,,,,,,,,,,,,,,,13
+," If yes, enter in column 2 the number of providers included in this report.  List the names of all providers and numbers below.",,,,,,,,,,,,,,,,,
+14, Provider name: _______________________________________________,,,,,,,,,,CCN number: ________________,,,,,,,14
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,Y/N,V,XVIII,XIX,
+,,,,,,,,,,,,,,1,2,3,4,
+15," Have you provided all or substantially all GME cost?  Enter ""Y"" for yes or ""N"" for no in column 1.",,,,,,,,,,,,,,,,,15
+," If yes, enter in columns 2, 3 and 4 the number of program visits performed by Intern & Residents for titles V,",,,,,,,,,,,,,,,,,
+," XVIII, and XIX, as applicable.  (see instructions)",,,,,,,,,,,,,,,,,

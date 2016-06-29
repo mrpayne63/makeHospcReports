@@ -1,0 +1,42 @@
+,,,,,,Inpatient Days / Outpatient Visits / Trips,,,,Full Time Equivalents,,,Discharges,,,,
+,,Worksheet,,,,,,,,,,,,,,,
+,,A,,,,,,,Total ,Total,Employees,,,,,Total,
+,,Line ,No. of,Bed Days,CAH,,Title,Title,All,Interns &,On,Nonpaid,,Title,Title ,All,
+,Component,No.,Beds,Available,Hours,Title V,XVIII,XIX,Patients,Residents,Payroll,Workers,Title V,XVIII,XIX,Patients,
+,,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,
+1,"Hospital Adults & Peds. (columns 5,",,,,,,,,,,,,,,,,1
+,"6, 7 and 8 exclude Swing Bed,",,,,,,,,,,,,,,,,
+,Observation Bed and Hospice days),,,,,,,,,,,,,,,,
+2,HMO,,,,,,,,,,,,,,,,2
+3,HMO IPF,,,,,,,,,,,,,,,,3
+4,HMO IRF,,,,,,,,,,,,,,,,4
+5,Hospital Adults & Peds. Swing Bed SNF,,,,,,,,,,,,,,,,5
+6,Hospital Adults & Peds.Swing Bed NF,,,,,,,,,,,,,,,,6
+7,Total Adults and Peds. (exclude,,,,,,,,,,,,,,,,7
+,observation beds) (see instructions),,,,,,,,,,,,,,,,
+8,Intensive Care Unit,,,,,,,,,,,,,,,,8
+9,Coronary Care Unit,,,,,,,,,,,,,,,,9
+10,Burn Intensive Care Unit,,,,,,,,,,,,,,,,10
+11,Surgical Intensive Care Unit,,,,,,,,,,,,,,,,11
+12,Other Special Care,,,,,,,,,,,,,,,,12
+13,Nursery,,,,,,,,,,,,,,,,13
+14,Total (see instructions),,,,,,,,,,,,,,,,14
+15,CAH visits,,,,,,,,,,,,,,,,15
+16,Subprovider - IPF,,,,,,,,,,,,,,,,16
+17,Subprovider - IRF,,,,,,,,,,,,,,,,17
+18,Subprovider - Other,,,,,,,,,,,,,,,,18
+19,Skilled Nursing Facility,,,,,,,,,,,,,,,,19
+20,Nursing Facility,,,,,,,,,,,,,,,,20
+21,Other Long Term Care,,,,,,,,,,,,,,,,21
+22,Home Health Agency,,,,,,,,,,,,,,,,22
+23,ASC (Distinct Part),,,,,,,,,,,,,,,,23
+24,Hospice (Distinct Part),,,,,,,,,,,,,,,,24
+25,CMHC,,,,,,,,,,,,,,,,25
+26,RHC/FQHC (specify),,,,,,,,,,,,,,,,26
+27,Total (sum of lines 14-26),,,,,,,,,,,,,,,,27
+28,Observation Bed Days,,,,,,,,,,,,,,,,28
+29,Ambulance Trips ,,,,,,,,,,,,,,,,29
+30,Employee discount days (see instructions),,,,,,,,,,,,,,,,30
+31,Employee discount days -IRF,,,,,,,,,,,,,,,,31
+32,Labor & delivery days (see instructions),,,,,,,,,,,,,,,,32
+33,LTCH non-covered days,,,,,,,,,,,,,,,,33

@@ -1,0 +1,48 @@
+,Check,,   [ ] Hospital,,,
+,applicable,,   [ ] Subprovider (Other) ,,,
+,box:,,,,,
+,,,,,,
+,PART II - CALCULATION OF MEDICARE REIMBURSEMENT SETTLEMENT UNDER IPF PPS,,,,,
+,,,,,,
+1," Net Federal IPF PPS payment (excluding outlier, ECT, and medical education payments) ",,,,,1
+2, Net IPF PPS Outlier payment,,,,,2
+3, Net IPF PPS ECT payment,,,,,3
+4," Unweighted intern and resident FTE count in the most recent cost report filed on or before November 15, 2004  (see instructions)",,,,,4
+5, New teaching program adjustment  (see instructions),,,,,5
+6," Current year unweighted FTE count of I&R other than FTEs in the first 3 years of a ""new teaching program""  (see instructions)",,,,,6
+7," Current year unweighted I&R FTE count for residents within the first 3 years of a ""new teaching program""  (see instructions)",,,,,7
+8, Intern and resident count for IPF PPS medical education adjustment  (see instructions),,,,,8
+9, Average daily census  (see instructions),,,,,9
+10, Medical Education Adjustment Factor {((1 + (line 8/line 9)) raised to the power of .5150 -1}.,,,,,10
+11, Medical Education Adjustment  (line 1 multiplied by line 10).,,,,,11
+12," Adjusted Net IPF PPS Payments (sum of lines 1, 2, 3 and 11)",,,,,12
+13, Nursing and allied health managed care payment  (see instruction),,,,,13
+14, Organ acquisition,,,,,14
+15," Cost of teaching physicians (from Worksheet D-5, Part II, column 3, line 20)  (see instructions)",,,,,15
+16, Subtotal  (see instructions),,,,,16
+17, Primary payer payments,,,,,17
+18, Subtotal (line 16 less line 17). ,,,,,18
+19, Deductibles,,,,,19
+20, Subtotal (line 18 minus line 19),,,,,20
+21, Coinsurance,,,,,21
+22, Subtotal (line 20 minus line 21),,,,,22
+23, Allowable bad debts (exclude bad debts for professional services)  (see instructions),,,,,23
+24, Adjusted reimbursable bad debts  (see instructions),,,,,24
+25, Allowable bad debts for dual eligible beneficiaries  (see instructions),,,,,25
+26, Subtotal (sum of lines 22 and 24) ,,,,,26
+27," Direct graduate medical education payments (from Worksheet E-4, line 49)",,,,,27
+28, Other pass through costs  (see instructions),,,,,28
+29, Outlier payments reconciliation,,,,,29
+30, Other adjustments  (specify)  (see instructions),,,,,30
+31, Total amount payable to the provider  (see instructions),,,,,31
+32, Interim payments,,,,,32
+33, Tentative settlement (for contractor use only),,,,,33
+34, Balance due provider/program (line 31 minus the sum lines 32 and 33),,,,,34
+35," Protested amounts (nonallowable cost report items) in accordance with CMS Pub. 15-2, section 115.2",,,,,35
+,,,,,,
+,,,,,,
+,TO BE COMPLETED BY CONTRACTOR,,,,,
+50," Original outlier amount from Worksheet E-3, Part II, line 2  (see instructions)",,,,,50
+51, Outlier reconciliation adjustment amount  (see instructions),,,,,51
+52, The rate used to calculate the Time Value of Money  (see instructions),,,,,52
+53, Time Value of Money  (see instructions),,,,,53

@@ -1,0 +1,117 @@
+,Check applicable box:,,   [  ] Hospital          [  ] IPF          [ ] IRF          [  ] Subprovider (Other)          [  ] SNF,,,,
+,PART B - MEDICAL AND OTHER HEALTH SERVICES,,,,,,
+1, Medical and other services  (see instructions),,,,,,1
+2, Medical and other services reimbursed under OPPS  (see instructions).,,,,,,2
+3, PPS payments,,,,,,3
+4, Outlier payment  (see instructions),,,,,,4
+5, Enter the hospital specific payment to cost ratio  (see instructions),,,,,,5
+6, Line 2 times line 5,,,,,,6
+7, Sum of lines line 3 plus line 4 divided by line 6,,,,,,7
+8, Transitional corridor payment  (see instructions),,,,,,8
+9," Ancillary service other pass through costs from Worksheet D, Part IV, column 13, line 200",,,,,,9
+10, Organ acquisition,,,,,,10
+11, Total cost (sum of lines 1 and 10)  (see instructions),,,,,,11
+,COMPUTATION OF LESSER OF COST OR CHARGES,,,,,,
+,Reasonable charges,,,,,,
+12, Ancillary service charges,,,,,,12
+13," Organ acquisition charges (from Worksheet D-4, Part III, line 69, col. 4)",,,,,,13
+14, Total reasonable charges (sum of lines 12 and 13),,,,,,14
+,Customary charges,,,,,,
+15, Aggregate amount actually collected from patients liable for payment for services on a charge basis,,,,,,15
+16, Amounts that would have been realized from patients liable for payment for services on a charge  ,,,,,,16
+, basis had such payment been made in accordance with 42 CFR 413.13(e),,,,,,
+17, Ratio of line 15 to line 16 (not to exceed 1.000000),,,,,,17
+18, Total customary charges  (see instructions),,,,,,18
+19, Excess of customary charges over reasonable cost (complete only if line 18 exceeds line 11)  (see instructions),,,,,,19
+20, Excess of reasonable cost over customary charges (complete only if line 11 exceeds line 18)  (see instructions),,,,,,20
+21," Lesser of cost or charges (line 11 minus line 20)  (for CAH, see instructions)",,,,,,21
+22, Interns and residents  (see instructions),,,,,,22
+23," Cost of teaching physicians (see instructions, 42 CFR 415.160 and CMS Pub. 15-1, §2148)",,,,,,23
+24," Total prospective payment (sum of lines 3, 4, 8 and 9)",,,,,,24
+,COMPUTATION OF REIMBURSEMENT SETTLEMENT,,,,,,
+25, Deductibles and coinsurance  (see instructions),,,,,,25
+26, Deductibles and Coinsurance relating to amount on line 24  (see instructions),,,,,,26
+27, Subtotal {(lines 21 and 24 - the sum of lines 25 and 26) plus the sum of lines 22 and 23}  (see instructions),,,,,,27
+28," Direct graduate medical education payments (from Worksheet E-4, line 50)",,,,,,28
+29," ESRD direct medical education costs (from Worksheet E-4, line 36)",,,,,,29
+30, Subtotal (sum of lines 27 through 29),,,,,,30
+31, Primary payer payments,,,,,,31
+32, Subtotal (line 30 minus line 31),,,,,,32
+ ,ALLOWABLE BAD DEBTS (EXCLUDE BAD DEBTS FOR PROFESSIONAL SERVICES),,,,,, 
+33," Composite rate ESRD (from Worksheet I-5, line 11)",,,,,,33
+34, Allowable bad debts  (see instructions),,,,,,34
+35, Adjusted reimbursable bad debts  (see instructions),,,,,,35
+36, Allowable bad debts for dual eligible beneficiaries  (see instructions),,,,,,36
+37," Subtotal (sum of lines 32, 33, and 34 or 35) (line 35 hospital and subprovider only)",,,,,,37
+38, MSP-LCC reconciliation amount from PS&R,,,,,,38
+39, Other adjustments (specify)  (see instructions),,,,,,39
+40, Subtotal (line 37 plus or minus lines 39 minus 38),,,,,,40
+41, Interim payments,,,,,,41
+42, Tentative settlement (for contractors use only),,,,,,42
+43," Balance due provider/program (line 40 minus the sum of lines 41, and 42) ",,,,,,43
+44," Protested amounts (nonallowable cost report items) in accordance with CMS Pub. 15-II, section 115.2",,,,,,44
+,,,,,,,
+,Check applicable box,,  [  ] Hospital     [  ] IPF        [ ] IRF      [  ] Subprovider(Other)        [  ] SNF,,,,
+,PART B - MEDICAL AND OTHER HEALTH SERVICES,,,,,,
+,,,,,,,
+,TO BE COMPLETED BY CONTRACTOR,,,,,,
+90, Original outlier amount  (see instructions),,,,,,90
+91, Outlier reconciliation adjustment amount  (see instructions),,,,,,91
+92, The rate used to calculate the Time Value of Money,,,,,,92
+93, Time Value of Money  (see instructions),,,,,,93
+94, Total (sum of lines 91 and 93),,,,,,94
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+"FORM CMS-2552-10 (08/2011) (INSTRUCTIONS FOR THIS WORKSHEET ARE PUBLISHED IN CMS PUB. 15-II, SECTION 4030.2)",,,,,,,
+Rev. 2,,,,,,,40-587

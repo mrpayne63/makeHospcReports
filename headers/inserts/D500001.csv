@@ -1,0 +1,34 @@
+,PART I - REASONABLE COMPENSATION EQUIVALENT COMPUTATION,,,,,,,,
+,,,,,,Physician/,,5 Percent,
+,Specialty,,Total,Professional,RCE,Professional,Unadjusted,of Unadjusted,
+,Description/Physician Identifier,,Remuneration,Component,Amount,Component Hours,RCE Limit,RCE Limit,
+1,2,,3,4,5,6,7,8,
+1, General Practitioner Family Practice,,,,,,,,1
+2, Internal Medicine,,,,,,,,2
+3, Surgery,,,,,,,,3
+4, Pediatrics,,,,,,,,4
+5, Obstetrics-Gynecology,,,,,,,,5
+6, Radiology,,,,,,,,6
+7, Psychiatry,,,,,,,,7
+8, Anesthesiology,,,,,,,,8
+9, Pathology,,,,,,,,9
+10, All Other,,,,,,,,10
+11, Total,,,,,,,,11
+,,,,,,,,,
+,,,Cost of,,Cost of,,,Adjust Cost,
+,,,Membership ,Professional,Physician,Professional,,of Physician's,
+,Specialty,,& Continuing,Component,Malpractice,Component,Adjusted,Direct Medical &,
+,Description/Physician Identifier,,Education,Share of col. 11,Insurance,Share of col. 13,RCE Limit,Surgical Services,
+,10,,11,12,13,14,15,16,
+, General Practitioner Family Practice,,,,,,,,1
+, Internal Medicine,,,,,,,,2
+, Surgery,,,,,,,,3
+, Pediatrics,,,,,,,,4
+, Obstetrics-Gynecology,,,,,,,,5
+, Radiology,,,,,,,,6
+, Psychiatry,,,,,,,,7
+, Anesthesiology,,,,,,,,8
+, Pathology,,,,,,,,9
+, All Other,,,,,,,,10
+," Total  (transfer the amount in column 16, line 11, to ",,,,,,,,11
+," Part II, line 1, column 1 or 2, as appropriate)",,,,,,,,

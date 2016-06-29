@@ -1,0 +1,28 @@
+,Check,,   [ ] Hospital,,,
+,applicable,,   [ ] Subprovider (Other) ,,,
+,box:,,,,,
+,,,,,,
+,PART I - CALCULATION OF MEDICARE REIMBURSEMENT SETTLEMENT UNDER - TEFRA ,,,,,
+,,,,,,
+1, Inpatient hospital services (see instructions),,,,,1
+2, Organ acquisition,,,,,2
+3," Cost of teaching physicians (from Worksheet D-5, Part II, column 3, line 20)  (see instructions)",,,,,3
+4, Subtotal (sum of lines 1 thru 3),,,,,4
+5, Primary payer payments,,,,,5
+6, Subtotal (line 4 less line 5).,,,,,6
+7, Deductibles,,,,,7
+8, Subtotal (line 6 minus line 7),,,,,8
+9, Coinsurance,,,,,9
+10, Subtotal (line 8 minus line 9),,,,,10
+11, Allowable bad debts (exclude bad debts for professional services)  (see instructions),,,,,11
+12, Adjusted reimbursable bad debts  (see instructions),,,,,12
+13, Allowable bad debts for dual eligible beneficiaries  (see instructions),,,,,13
+14, Subtotal (sum of lines 10 and 12) ,,,,,14
+15," Direct graduate medical education payments (from Worksheet E-4, line 49)",,,,,15
+16, Other pass through costs  (see instructions),,,,,16
+17, Other adjustments  (specify)   (see instructions),,,,,17
+18, Total amount payable to the provider  (see instructions),,,,,18
+19, Interim payments,,,,,19
+20, Tentative settlement (for contractor use only),,,,,20
+21, Balance due provider/program (line 18 minus the sum lines 19 and 20),,,,,21
+22," Protested amounts (nonallowable cost report items) in accordance with CMS Pub. 15-2, section 115.2",,,,,22

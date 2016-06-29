@@ -1,0 +1,105 @@
+,Check,,,   [ ] Hospital,,,,
+,applicable box:,,,   [ ] Subprovider (Other),,,,
+,,,,,,,,
+,PART A - INPATIENT HOSPITAL SERVICES UNDER PPS,,,,,,,
+,,,,,,,,
+1, DRG amounts other than outlier payments,,,,,,,1
+2, Outlier payments for discharges  (see instructions),,,,,,,2
+3, Managed care simulated payments,,,,,,,3
+4, Bed days available divided by number of days in the cost reporting period  (see instructions),,,,,,,4
+, Indirect Medical Education Adjustment Calculation for Hospitals,,,,,,,
+5, FTE count for allopathic and osteopathic programs for the most recent cost reporting period ending on or ,,,,,,,5
+, before 12/31/1996  (see instructions),,,,,,,
+6, FTE count for allopathic and osteopathic programs which meet the criteria for an add-on to the cap for new programs in,,,,,,,6
+, in accordance with 42 CFR 413.79(e),,,,,,,
+7, MMA Section 422 reduction amount to the IME cap as specified under 42 CFR §412.105(f)(1)(iv)(B)(1),,,,,,,7
+,7.01  ACA Section 5503 reduction amount to the IME cap as specified under 42 CFR §412.105(f)(1)(iv)(B)(2),,,,,,,7.01
+," If the cost report straddles July 1, 2011 then see instructions.",,,,,,,
+8, Adjustment (increase or decrease) to the FTE count for allopathic and osteopathic programs for affiliated programs in accordance,,,,,,,8
+," with 42 CFR 413.75(b), 413.79(c)(2)(iv) and Vol. 64 Federal Register, May 12, 1998, page 26340 and Vol. 67 Federal Register,",,,,,,,
+," page 50069, August 1, 2002.",,,,,,,
+, 8.01 The amount of increase if the hospital was awarded FTE cap slots under section 5503 of the ACA.   ,,,,,,,8.01
+," If the cost report straddles July 1, 2011, see instructions.",,,,,,,
+, 8.02 The amount of increase if the hospital was awarded FTE cap slots from a closed teaching hospital under ,,,,,,,8.02
+, section 5506 of ACA. (see instructions),,,,,,,
+9, Sum of lines 5 plus 6 minus lines (7 and 7.01) plus/minus line 8 plus lines (8.01 and 8.02)  (see instructions),,,,,,,9
+10, FTE count for allopathic and osteopathic programs in the current year from your records,,,,,,,10
+11, FTE count for residents in dental and podiatric programs,,,,,,,11
+12, Current year allowable FTE  (see instructions),,,,,,,12
+13, Total allowable FTE count for the prior year,,,,,,,13
+14," Total allowable FTE count for the penultimate year if that year ended on or after September 30, 1997, otherwise enter zero.",,,,,,,14
+15, Sum of lines 12 through 14 divided by 3,,,,,,,15
+16, Adjustment for residents in initial years of the program,,,,,,,16
+17, Adjustment for residents displaced by program or hospital closure,,,,,,,17
+18, Adjusted rolling average FTE count,,,,,,,18
+19, Current year resident to bed ratio (line 18 divided by line 4),,,,,,,19
+20, Prior year resident to bed ratio  (see instructions),,,,,,,20
+21, Enter the lesser of lines 19 or 20  (see instructions),,,,,,,21
+22, IME payment adjustment  (see instructions),,,,,,,22
+, Indirect Medical Education Adjustment for the Add-on for Section 422 of the MMA,,,,,,,
+23, Number of additional allopathic and osteopathic IME FTE resident cap slots under 42 Sec. 412.105 (f)(1)(iv)(C ).,,,,,,,23
+24, IME FTE resident count over cap  (see instructions),,,,,,,24
+25," If the amount on line 24 is greater than -0-, then enter the lower of line 23 or line 24  (see instructions) ",,,,,,,25
+26, Resident to bed ratio (divide line 25 by line 4),,,,,,,26
+27, IME payments adjustment  (see instructions),,,,,,,27
+28, IME Adjustment  (see instructions),,,,,,,28
+29, Total IME payment (sum of lines 22 and 28),,,,,,,29
+, Disproportionate Share Adjustment,,,,,,,
+30, Percentage of SSI recipient patient days to Medicare Part A patient days  (see instructions),,,,,,,30
+31," Percentage of Medicaid patient days to total days reported on Worksheet S-2, Part I, line 24. (see instructions)",,,,,,,31
+32, Sum of lines 30 and 31,,,,,,,32
+33, Allowable disproportionate share percentage  (see instructions),,,,,,,33
+34, Disproportionate share adjustment  (see instructions),,,,,,,34
+,,,,,,,,
+,Check,,, [ ] Hospital, [ ] IPF,,,
+,applicable box:,,, [ ] IRF, [ ] Subprovider (other),,,
+,,,,,,,,
+,PART A - INPATIENT HOSPITAL SERVICES UNDER PPS,,,,,,,
+,,,,,,,,
+,Additional payment for high percentage of ESRD beneficiary discharges,,,,,,,
+40," Total Medicare discharges on Worksheet S-3, Part I excluding discharges for MS-DRGs 652, 682, 683, ",,,,,,,40
+, 684 and 685  (see instructions),,,,,,,
+41," Total ESRD Medicare discharges excluding MS-DRGs 652, 682, 683, 684 an 685  (see instructions)",,,,,,,41
+42," Divide line 41 by line 40 (if less than 10%, you do not qualify for adjustment)",,,,,,,42
+43," Total Medicare ESRD inpatient days excluding MS-DRGs 652, 682, 683, 684 an 685  (see instructions)",,,,,,,43
+44, Ratio of average length of stay to one week (line 43 divided by line 41 divided by 7 days),,,,,,,44
+45, Average weekly cost for dialysis treatments  (see instructions) ,,,,,,,45
+46, Total additional payment (line 45 times line 44 times line 41),,,,,,,46
+47, Subtotal  (see instructions) ,,,,,,,47
+48," Hospital specific payments (to be completed by SCH and MDH, small rural hospitals only  (see instructions)",,,,,,,48
+49, Total payment for inpatient operating costs SCH and MDH only  (see instructions),,,,,,,49
+50," Payment for inpatient program capital (from Worksheet L, Parts I, II, as applicable)",,,,,,,50
+51," Exception payment for inpatient program capital (Worksheet L, Part III)  (see instructions)",,,,,,,51
+52," Direct graduate medical education payment (from Worksheet E-4, line 49)  (see instructions).",,,,,,,52
+53, Nursing and allied health managed care payment,,,,,,,53
+54, Special add-on payments for new technologies,,,,,,,54
+55," Net organ acquisition cost (Worksheet D-4 Part III, col. 1, line 69)",,,,,,,55
+56," Cost of teaching physicians (Worksheet D-5, Part II, col. 3, line 20)",,,,,,,56
+57, Routine service other pass through costs,,,,,,,57
+58," Ancillary service other pass through costs Worksheet D, Part IV, col. 11 line 200)",,,,,,,58
+59, Total (sum of amounts on lines 49 through 58),,,,,,,59
+60, Primary payer payments,,,,,,,60
+61, Total amount payable for program beneficiaries (line 59 minus line 60),,,,,,,61
+62, Deductibles billed to program beneficiaries,,,,,,,62
+63, Coinsurance billed to program beneficiaries,,,,,,,63
+64, Allowable bad debts  (see instructions),,,,,,,64
+65, Adjusted reimbursable bad debts  (see instructions),,,,,,,65
+66, Allowable bad debts for dual eligible beneficiaries  (see instructions),,,,,,,66
+67, Subtotal (line 61 plus line 65 minus lines 62 and 63) ,,,,,,,67
+68, Credits received from manufacturers for replaced devices applicable to MS-DRG  (see instructions),,,,,,,68
+69, Outlier payments reconciliation,,,,,,,69
+70,Other adjustments (specify)  (see instructions),,,,,,,70
+71, Amount due provider (line 67 minus lines 68 plus/minus lines 69 & 70),,,,,,,71
+72, Interim payments,,,,,,,72
+73, Tentative settlement (for contractor use only) ,,,,,,,73
+74, Balance due provider (Program) (lines 71 minus the sum of lines  72  and 73),,,,,,,74
+75," Protested amounts (nonallowable cost report items) in accordance with CMS Pub. 15-II, section 115.2",,,,,,,75
+,,,,,,,,
+,TO BE COMPLETED BY CONTRACTOR,,,,,,,
+90," Operating outlier amount from Worksheet E, Part A line 2",,,,,,,90
+91," Capital outlier from Worksheet L, Part I, line 2",,,,,,,91
+92, Operating outlier reconciliation adjustment amount  (see instructions),,,,,,,92
+93, Capital outlier reconciliation adjustment amount  (see instructions),,,,,,,93
+94, The rate used to calculate the Time Value of Money  (see instructions),,,,,,,94
+95, Time Value of Money for operating expenses  (see instructions),,,,,,,95
+96, Time Value of Money for capital related expenses  (see instructions),,,,,,,96

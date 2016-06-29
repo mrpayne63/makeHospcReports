@@ -1,0 +1,122 @@
+,,NET EXPENSES,CAPITAL,, ,, ,,,,,,,,,, , ,,,,,,,,,,, , ,,,INTERN &,,
+,,FOR COST,RELATED COSTS,,,,,,,,,,,,,,,,,,,,,,,,NON-,,INTERNS &,INTERNS &,,,RESIDENT ,,
+,,ALLOCATION, , ,,,ADMINIS-,MAIN-,,,,,LAUNDRY,,,,MAIN-,NURSING,CENTRAL,,MEDICAL,,,,,OTHER,PHYSICIAN,,RESIDENTS,RESIDENTS,PARAMEDICAL,,COST & POST,,
+,COST CENTER DESCRIPTIONS,(from Wkst.,BLDGS. &,MOVABLE,EMPLOYEE,SUBTOTAL,TRATIVE &,TENANCE &,OPERATION,,,COST CENTER DESCRIPTIONS,& LINEN,HOUSE-, ,,TENANCE OF,ADMINIS-,SERVICES &,,RECORDS &,SOCIAL,,,COST CENTER DESCRIPTIONS,GENERAL,ANES-,NURSING,SALARY AND,PROGRAM,EDUCATION,,STEPDOWN,,
+,,A col. 7),FIXTURES,EQUIPMENT,BENEFITS,(cols. 0-4),GENERAL,REPAIRS,OF PLANT,,,,SERVICE,KEEPING,DIETARY,CAFETERIA,PERSONNEL,TRATION,SUPPLY,PHARMACY,LIBRARY,SERVICE,,,,SERVICE,THETISTS,SCHOOL,FRINGES,COSTS,(SPECIFY),SUBTOTAL, ADJUSTMENTS,TOTAL,
+,,0,1,2,4,4A,5,6,7,,,,8,9,10,11,12,13,14,15,16,17,,,,18,19,20,21,22,23,24,25,26,
+,GENERAL SERVICE COST CENTERS,,,,,,,,,,,GENERAL SERVICE COST CENTERS,,,,,,,,,,,,,GENERAL SERVICE COST CENTERS,,,,,,,,,,
+1, Capital Related Costs-Buildings and Fixtures,,,,,,,,,1,1, Capital Related Costs-Buildings and Fixtures,,,,,,,,,,,1,1, Capital Related Costs-Buildings and Fixtures,,,,,,,,,,1
+2, Capital Related Costs-Movable Equipment,,,,,,,,,2,2, Capital Related Costs-Movable Equipment,,,,,,,,,,,2,2, Capital Related Costs-Movable Equipment,,,,,,,,,,2
+4, Employee Benefits,,,,,,,,,4,4, Employee Benefits,,,,,,,,,,,4,4, Employee Benefits,,,,,,,,,,4
+5, Administrative and General,,,,,,,,,5,5, Administrative and General,,,,,,,,,,,5,5, Administrative and General,,,,,,,,,,5
+6, Maintenance and Repairs,,,,,,,,,6,6, Maintenance and Repairs,,,,,,,,,,,6,6, Maintenance and Repairs,,,,,,,,,,6
+7, Operation of Plant,,,,,,,,,7,7, Operation of Plant,,,,,,,,,,,7,7, Operation of Plant,,,,,,,,,,7
+8, Laundry and Linen Service,,,,,,,,,8,8, Laundry and Linen Service,,,,,,,,,,,8,8, Laundry and Linen Service,,,,,,,,,,8
+9, Housekeeping,,,,,,,,,9,9, Housekeeping,,,,,,,,,,,9,9, Housekeeping,,,,,,,,,,9
+10, Dietary,,,,,,,,,10,10, Dietary,,,,,,,,,,,10,10, Dietary,,,,,,,,,,10
+11, Cafeteria,,,,,,,,,11,11, Cafeteria,,,,,,,,,,,11,11, Cafeteria,,,,,,,,,,11
+12, Maintenance of Personnel,,,,,,,,,12,12, Maintenance of Personnel,,,,,,,,,,,12,12, Maintenance of Personnel,,,,,,,,,,12
+13, Nursing Administration,,,,,,,,,13,13, Nursing Administration,,,,,,,,,,,13,13, Nursing Administration,,,,,,,,,,13
+14, Central Services and Supply,,,,,,,,,14,14, Central Services and Supply,,,,,,,,,,,14,14, Central Services and Supply,,,,,,,,,,14
+15, Pharmacy,,,,,,,,,15,15, Pharmacy,,,,,,,,,,,15,15, Pharmacy,,,,,,,,,,15
+16, Medical Records & Medical Records Library,,,,,,,,,16,16, Medical Records & Medical Records Library,,,,,,,,,,,16,16, Medical Records & Medical Records Library,,,,,,,,,,16
+17, Social Service,,,,,,,,,17,17, Social Service,,,,,,,,,,,17,17, Social Service,,,,,,,,,,17
+18, Other General Service (specify),,,,,,,,,18,18, Other General Service (specify),,,,,,,,,,,18,18, Other General Service (specify),,,,,,,,,,18
+19, Nonphysician Anesthetists,,,,,,,,,19,19, Nonphysician Anesthetists,,,,,,,,,,,19,19, Nonphysician Anesthetists,, ,,,,,,,,19
+20, Nursing School,,,,,,,,,20,20, Nursing School,,,,,,,,,,,20,20, Nursing School,, ,,,,,,,,20
+21, Intern & Res. Service-Salary & Fringes (Approved),,,,,,,,,21,21, Intern & Res. Service-Salary & Fringes (Approved),,,,,,,,,,,21,21, Intern & Res. Service-Salary & Fringes (Approved),, , , ,,,,,,21
+22, Intern & Res. Other Program Costs (Approved),,,,,,,,,22,22, Intern & Res. Other Program Costs (Approved),,,,,,,,,,,22,22, Intern & Res. Other Program Costs (Approved),, , , , ,,,,,22
+23, Paramedical Education Program (specify) ,,,,,,,,,23,23, Paramedical Education Program (specify) ,,,,,,,,,,,23,23, Paramedical Education Program (specify) ,, , , , , ,,,,23
+,INPATIENT ROUTINE SERVICE COST CENTERS,,,,,,,,,,,INPATIENT ROUTINE SERVICE COST CENTERS,,,,,,,,,,,,,INPATIENT ROUTINE SERVICE COST CENTERS,,,,,,,,,,
+30, Adults and Pediatrics (General Routine Care),,,,,,,,,30,30, Adults and Pediatrics (General Routine Care),,,,,,,,,,,30,30, Adults and Pediatrics (General Routine Care),,,,,,,,,,30
+31, Intensive Care Unit,,,,,,,,,31,31, Intensive Care Unit,,,,,,,,,,,31,31, Intensive Care Unit,,,,,,,,,,31
+32, Coronary Care Unit,,,,,,,,,32,32, Coronary Care Unit,,,,,,,,,,,32,32, Coronary Care Unit,,,,,,,,,,32
+33, Burn Intensive Care Unit,,,,,,,,,33,33, Burn Intensive Care Unit,,,,,,,,,,,33,33, Burn Intensive Care Unit,,,,,,,,,,33
+34, Surgical Intensive Care Unit,,,,,,,,,34,34, Surgical Intensive Care Unit,,,,,,,,,,,34,34, Surgical Intensive Care Unit,,,,,,,,,,34
+35, Other Special Care Unit (specify),,,,,,,,,35,35, Other Special Care Unit (specify),,,,,,,,,,,35,35, Other Special Care Unit (specify),,,,,,,,,,35
+40, Subprovider IPF,,,,,,,,,40,40, Subprovider IPF,,,,,,,,,,,40,40, Subprovider IPF,,,,,,,,,,40
+41, Subprovider IRF,,,,,,,,,41,41, Subprovider IRF,,,,,,,,,,,41,41, Subprovider IRF,,,,,,,,,,41
+42, Subprovider (specify),,,,,,,,,42,42, Subprovider (specify),,,,,,,,,,,42,42, Subprovider (specify),,,,,,,,,,42
+43, Nursery,,,,,,,,,43,43, Nursery,,,,,,,,,,,43,43, Nursery,,,,,,,,,,43
+44, Skilled Nursing Facility,,,,,,,,,44,44, Skilled Nursing Facility,,,,,,,,,,,44,44, Skilled Nursing Facility,,,,,,,,,,44
+45, Nursing Facility,,,,,,,,,45,45, Nursing Facility,,,,,,,,,,,45,45, Nursing Facility,,,,,,,,,,45
+46, Other Long Term Care,,,,,,,,,46,46, Other Long Term Care,,,,,,,,,,,46,46, Other Long Term Care,,,,,,,,,,46
+,,NET EXPENSES,CAPITAL,, ,, ,,,,,,,,,, , ,,,,,,,,,,, , ,,,INTERN &,,
+,,FOR COST,RELATED COSTS,,,,,,,,,,,,,,,,,,,,,,,,NON-,,INTERNS &,INTERNS &,,,RESIDENT ,,
+,,ALLOCATION, , ,,,ADMINIS-,MAIN-,,,,,LAUNDRY,,,,MAIN-,NURSING,CENTRAL,,MEDICAL,,,,,OTHER,PHYSICIAN,,RESIDENTS,RESIDENTS,PARAMEDICAL,,COST & POST,,
+,COST CENTER DESCRIPTIONS,(from Wkst.,BLDGS. &,MOVABLE,EMPLOYEE,SUBTOTAL,TRATIVE &,TENANCE &,OPERATION,,,COST CENTER DESCRIPTIONS,& LINEN,HOUSE-, ,,TENANCE OF,ADMINIS-,SERVICES &,,RECORDS &,SOCIAL,,,COST CENTER DESCRIPTIONS,GENERAL,ANES-,NURSING,SALARY AND,PROGRAM,EDUCATION,,STEPDOWN,,
+,,A col. 7),FIXTURES,EQUIPMENT,BENEFITS,(cols. 0-4),GENERAL,REPAIRS,OF PLANT,,,,SERVICE,KEEPING,DIETARY,CAFETERIA,PERSONNEL,TRATION,SUPPLY,PHARMACY,LIBRARY,SERVICE,,,,SERVICE,THETISTS,SCHOOL,FRINGES,COSTS,(SPECIFY),SUBTOTAL, ADJUSTMENTS,TOTAL,
+,,0,1,2,4,4A,5,6,7,,,,8,9,10,11,12,13,14,15,16,17,,,,18,19,20,21,22,23,24,25,26,
+,ANCILLARY SERVICE COST CENTERS,,,,,,,,,,,ANCILLARY SERVICE COST CENTERS,,,,,,,,,,,,,ANCILLARY SERVICE COST CENTERS,,,,,,,,,,
+50, Operating Room,,,,,,,,,50,50, Operating Room,,,,,,,,,,,50,50, Operating Room,,,,,,,,,,50
+51, Recovery Room,,,,,,,,,51,51, Recovery Room,,,,,,,,,,,51,51, Recovery Room,,,,,,,,,,51
+52, Labor Room and Delivery Room,,,,,,,,,52,52, Labor Room and Delivery Room,,,,,,,,,,,52,52, Labor Room and Delivery Room,,,,,,,,,,52
+53, Anesthesiology,,,,,,,,,53,53, Anesthesiology,,,,,,,,,,,53,53, Anesthesiology,,,,,,,,,,53
+54, Radiology-Diagnostic,,,,,,,,,54,54, Radiology-Diagnostic,,,,,,,,,,,54,54, Radiology-Diagnostic,,,,,,,,,,54
+55, Radiology-Therapeutic,,,,,,,,,55,55, Radiology-Therapeutic,,,,,,,,,,,55,55, Radiology-Therapeutic,,,,,,,,,,55
+56, Radioisotope,,,,,,,,,56,56, Radioisotope,,,,,,,,,,,56,56, Radioisotope,,,,,,,,,,56
+57, Computed Tomography (CT) Scan,,,,,,,,,57,57, Computed Tomography (CT) Scan,,,,,,,,,,,57,57, Computed Tomography (CT) Scan,,,,,,,,,,57
+58, Magnetic Resonance Imaging (MRI),,,,,,,,,58,58, Magnetic Resonance Imaging (MRI),,,,,,,,,,,58,58, Magnetic Resonance Imaging (MRI),,,,,,,,,,58
+59, Cardiac Catheterization,,,,,,,,,59,59, Cardiac Catheterization,,,,,,,,,,,59,59, Cardiac Catheterization,,,,,,,,,,59
+60, Laboratory,,,,,,,,,60,60, Laboratory,,,,,,,,,,,60,60, Laboratory,,,,,,,,,,60
+61, PBP Clinical Laboratory Services-Program Only,,,,,,,,,61,61, PBP Clinical Laboratory Services-Program Only,,,,,,,,,,,61,61, PBP Clinical Laboratory Services-Program Only,,,,,,,,,,61
+62, Whole Blood & Packed Red Blood Cells,,,,,,,,,62,62, Whole Blood & Packed Red Blood Cells,,,,,,,,,,,62,62, Whole Blood & Packed Red Blood Cells,,,,,,,,,,62
+63," Blood Storing, Processing, & Trans.",,,,,,,,,63,63," Blood Storing, Processing, & Trans.",,,,,,,,,,,63,63," Blood Storing, Processing, & Trans.",,,,,,,,,,63
+64, Intravenous Therapy,,,,,,,,,64,64, Intravenous Therapy,,,,,,,,,,,64,64, Intravenous Therapy,,,,,,,,,,64
+65, Respiratory Therapy,,,,,,,,,65,65, Respiratory Therapy,,,,,,,,,,,65,65, Respiratory Therapy,,,,,,,,,,65
+66, Physical Therapy,,,,,,,,,66,66, Physical Therapy,,,,,,,,,,,66,66, Physical Therapy,,,,,,,,,,66
+67, Occupational Therapy,,,,,,,,,67,67, Occupational Therapy,,,,,,,,,,,67,67, Occupational Therapy,,,,,,,,,,67
+68, Speech Pathology,,,,,,,,,68,68, Speech Pathology,,,,,,,,,,,68,68, Speech Pathology,,,,,,,,,,68
+69, Electrocardiology,,,,,,,,,69,69, Electrocardiology,,,,,,,,,,,69,69, Electrocardiology,,,,,,,,,,69
+70, Electroencephalography,,,,,,,,,70,70, Electroencephalography,,,,,,,,,,,70,70, Electroencephalography,,,,,,,,,,70
+71, Medical Supplies Charged to Patients,,,,,,,,,71,71, Medical Supplies Charged to Patients,,,,,,,,,,,71,71, Medical Supplies Charged to Patients,,,,,,,,,,71
+72, Implantable Devices Charged to Patients,,,,,,,,,72,72, Implantable Devices Charged to Patients,,,,,,,,,,,72,72, Implantable Devices Charged to Patients,,,,,,,,,,72
+73, Drugs Charged to Patients,,,,,,,,,73,73, Drugs Charged to Patients,,,,,,,,,,,73,73, Drugs Charged to Patients,,,,,,,,,,73
+74, Renal Dialysis,,,,,,,,,74,74, Renal Dialysis,,,,,,,,,,,74,74, Renal Dialysis,,,,,,,,,,74
+75, ASC (Non-Distinct Part),,,,,,,,,75,75, ASC (Non-Distinct Part),,,,,,,,,,,75,75, ASC (Non-Distinct Part),,,,,,,,,,75
+76, Other Ancillary (specify),,,,,,,,,76,76, Other Ancillary (specify),,,,,,,,,,,76,76, Other Ancillary (specify),,,,,,,,,,76
+,OUTPATIENT SERVICE COST CENTERS,,,,,,,,,,,OUTPATIENT SERVICE COST CENTERS,,,,,,,,,,,,,OUTPATIENT SERVICE COST CENTERS,,,,,,,,,,
+88, Rural Health Clinic (RHC),,,,,,,,,88,88,Rural Health Clinic (RHC),,,,,,,,,,,88,88,Rural Health Clinic (RHC),,,,,,,,,,88
+89, Federally Qualified Health Center (FQHC),,,,,,,,,89,89,Federally Qualified Health Center (FQHC),,,,,,,,,,,89,89,Federally Qualified Health Center (FQHC),,,,,,,,,,89
+90, Clinic,,,,,,,,,90,90,Clinic,,,,,,,,,,,90,90,Clinic,,,,,,,,,,90
+91, Emergency,,,,,,,,,91,91, Emergency,,,,,,,,,,,91,91, Emergency,,,,,,,,,,91
+92, Observation Beds,,,,,,,,,92,92, Observation Beds,,,,,,,,,,,92,92, Observation Beds,,,,,,,,,,92
+93, Other Outpatient Service (specify),,,,,,,,,93,93, Other Outpatient Service (specify),,,,,,,,,,,93,93, Other Outpatient Service (specify),,,,,,,,,,93
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,NET EXPENSES,CAPITAL,, ,, ,,,,,,,,,, , ,,,,,,,,,,, , ,,,INTERN &,,
+,,FOR COST,RELATED COSTS,,,,,,,,,,,,,,,,,,,,,,,,NON-,,INTERNS &,INTERNS &,,,RESIDENT ,,
+,,ALLOCATION, , ,,,ADMINIS-,MAIN-,,,,,LAUNDRY,,,,MAIN-,NURSING,CENTRAL,,MEDICAL,,,,,OTHER,PHYSICIAN,,RESIDENTS,RESIDENTS,PARAMEDICAL,,COST & POST,,
+,COST CENTER DESCRIPTIONS,(from Wkst.,BLDGS. &,MOVABLE,EMPLOYEE,SUBTOTAL,TRATIVE &,TENANCE &,OPERATION,,,COST CENTER DESCRIPTIONS,& LINEN,HOUSE-, ,,TENANCE OF,ADMINIS-,SERVICES &,,RECORDS &,SOCIAL,,,COST CENTER DESCRIPTIONS,GENERAL,ANES-,NURSING,SALARY AND,PROGRAM,EDUCATION,,STEPDOWN,,
+,,A col. 7),FIXTURES,EQUIPMENT,BENEFITS,(cols. 0-4),GENERAL,REPAIRS,OF PLANT,,,,SERVICE,KEEPING,DIETARY,CAFETERIA,PERSONNEL,TRATION,SUPPLY,PHARMACY,LIBRARY,SERVICE,,,,SERVICE,THETISTS,SCHOOL,FRINGES,COSTS,(SPECIFY),SUBTOTAL, ADJUSTMENTS,TOTAL,
+,,0,1,2,4,4A,5,6,7,,,,8,9,10,11,12,13,14,15,16,17,,,,18,19,20,21,22,23,24,25,26,
+,OTHER REIMBURSABLE COST CENTERS,,,,,,,,,,,OTHER REIMBURSABLE COST CENTERS,,,,,,,,,,,,,OTHER REIMBURSABLE COST CENTERS,,,,,,,,,,
+94, Home Program Dialysis,,,,,,,,,94,94, Home Program Dialysis,,,,,,,,,,,94,94, Home Program Dialysis,,,,,,,,,,94
+95, Ambulance Services,,,,,,,,,95,95, Ambulance Services,,,,,,,,,,,95,95, Ambulance Services,,,,,,,,,,95
+96, Durable Medical Equipment-Rented,,,,,,,,,96,96, Durable Medical Equipment-Rented,,,,,,,,,,,96,96, Durable Medical Equipment-Rented,,,,,,,,,,96
+97, Durable Medical Equipment-Sold,,,,,,,,,97,97, Durable Medical Equipment-Sold,,,,,,,,,,,97,97, Durable Medical Equipment-Sold,,,,,,,,,,97
+98, Other Reimbursable (specify),,,,,,,,,98,98, Other Reimbursable (specify),,,,,,,,,,,98,98, Other Reimbursable (specify),,,,,,,,,,98
+99, Outpatient Rehabilitation Provider (specify),,,,,,,,,99,99, Outpatient Rehabilitation Provider (specify),,,,,,,,,,,99,99, Outpatient Rehabilitation Provider (specify),,,,,,,,,,99
+100, Intern-Resident Service (not appvd. tchng. prgm.),,,,,,,,,100,100, Intern-Resident Service (not appvd. tchng. prgm.),,,,,,,,,,,100,100, Intern-Resident Service (not appvd. tchng. prgm.),,,,,,,,,,100
+101, Home Health Agency,,,,,,,,,101,101, Home Health Agency,,,,,,,,,,,101,101, Home Health Agency,,,,,,,,,,101
+, SPECIAL PURPOSE COST CENTERS,,,,,,,,,,, SPECIAL PURPOSE COST CENTERS,,,,,,,,,,,,, SPECIAL PURPOSE COST CENTERS,,,,,,,,,,
+105, Kidney Acquisition,,,,,,,,,105,105, Kidney Acquisition,,,,,,,,,,,105,105, Kidney Acquisition,,,,,,,,,,105
+106, Heart Acquisition,,,,,,,,,106,106, Heart Acquisition,,,,,,,,,,,106,106, Heart Acquisition,,,,,,,,,,106
+107, Liver Acquisition,,,,,,,,,107,107, Liver Acquisition,,,,,,,,,,,107,107, Liver Acquisition,,,,,,,,,,107
+108, Lung Acquisition,,,,,,,,,108,108, Lung Acquisition,,,,,,,,,,,108,108, Lung Acquisition,,,,,,,,,,108
+109, Pancreas Acquisition,,,,,,,,,109,109,Pancreas Acquisition,,,,,,,,,,,109,109,Pancreas Acquisition,,,,,,,,,,109
+110, Intestinal Acquisition,,,,,,,,,110,110, Intestinal Acquisition,,,,,,,,,,,110,110, Intestinal Acquisition,,,,,,,,,,110
+111, Islet Acquisition,,,,,,,,,111,111, Islet Acquisition,,,,,,,,,,,111,111, Islet Acquisition,,,,,,,,,,111
+112, Other Organ Acquisition (specify),,,,,,,,,112,112, Other Organ Acquisition (specify),,,,,,,,,,,112,112, Other Organ Acquisition (specify),,,,,,,,,,112
+115, Ambulatory Surgical Center (Distinct Part),,,,,,,,,115,115, Ambulatory Surgical Center (Distinct Part),,,,,,,,,,,115,115, Ambulatory Surgical Center (Distinct Part),,,,,,,,,,115
+116, Hospice,,,,,,,,,116,116, Hospice,,,,,,,,,,,116,116, Hospice,,,,,,,,,,116
+117, Other Special Purpose (specify),,,,,,,,,117,117, Other Special Purpose (specify),,,,,,,,,,,117,117, Other Special Purpose (specify),,,,,,,,,,117
+118, SUBTOTALS (sum of lines 1-117),,,,,,,,,118,118, SUBTOTALS (sum of lines 1-117),,,,,,,,,,,118,118, SUBTOTALS (sum of lines 1-117),,,,,,,,,,118
+,NONREIMBURSABLE COST CENTERS,,,,,,,,,,,NONREIMBURSABLE COST CENTERS,,,,,,,,,,,,,NONREIMBURSABLE COST CENTERS,,,,,,,,,,
+190," Gift, Flower, Coffee Shop, & Canteen",,,,,,,,,190,190," Gift, Flower, Coffee Shop, & Canteen",,,,,,,,,,,190,190," Gift, Flower, Coffee Shop, & Canteen",,,,,,,,,,190
+191, Research,,,,,,,,,191,191, Research,,,,,,,,,,,191,191, Research,,,,,,,,,,191
+192, Physicians' Private Offices,,,,,,,,,192,192, Physicians' Private Offices,,,,,,,,,,,192,192, Physicians' Private Offices,,,,,,,,,,192
+193, Nonpaid Workers,,,,,,,,,193,193, Nonpaid Workers,,,,,,,,,,,193,193, Nonpaid Workers,,,,,,,,,,193
+194, Other Nonreimbursable (specify),,,,,,,,,194,194, Other Nonreimbursable (specify),,,,,,,,,,,194,194, Other Nonreimbursable (specify),,,,,,,,,,194
+200, Cross Foot Adjustments,,,,,,,,,200,200, Cross Foot Adjustments,,,,,,,,,,,200,200, Cross Foot Adjustments,,,,,,, ,,,200
+201, Negative Cost Centers,,,,,,,,,201,201, Negative Cost Centers,,,,,,,,,,,201,201, Negative Cost Centers,,,,,,,,,,201
+202, TOTAL (sum lines 118-201),,,,,,,,,202,202, TOTAL (sum lines 118-201),,,,,,,,,,,202,202, TOTAL (sum lines 118-201),,,,,,,,,,202

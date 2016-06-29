@@ -1,0 +1,120 @@
+,PROSPECTIVE PAYMENT FOR SNF,,,,,,, PROVIDER CCN:, PERIOD:, WORKSHEET  S-7,
+,STATISTICAL  DATA,,,,,,,, FROM ____________,,
+,,,,,,,, ________________, TO ______________,,
+,,,,,,,,,,,
+,,,,,,,,,Y/N,Date,
+,,,,,,,,,1,2,
+1," If this facility contains a hospital-based SNF, were all patients under managed care or was there no Medicare",,,,,,,,,,1
+," utilization?  Enter ""Y"" for yes and do not complete the rest of this worksheet.",,,,,,,,,,
+2," Does this hospital have an agreement under either section 1883 or section 1913 for swing beds?  Enter ""Y"" for",,,,,,,,,,2
+," yes or ""N"" for no in column 1.  If yes, enter the agreement date (mm/dd/yyyy) in column 2.",,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,SNF,Swing Bed SNF,TOTAL,
+,,,,Group,,,,Days,Days,(sum of col. 2 + 3),
+,,,,1,,,,2,3,4,
+3,RUX,,,,,,,,,,3
+4,RUL,,,,,,,,,,4
+5,RVX,,,,,,,,,,5
+6,RVL,,,,,,,,,,6
+7,RHX,,,,,,,,,,7
+8,RHL,,,,,,,,,,8
+9,RMX,,,,,,,,,,9
+10,RML,,,,,,,,,,10
+11,RLX,,,,,,,,,,11
+12,RUC,,,,,,,,,,12
+13,RUB,,,,,,,,,,13
+14,RUA,,,,,,,,,,14
+15,RVC,,,,,,,,,,15
+16,RVB,,,,,,,,,,16
+17,RVA,,,,,,,,,,17
+18,RHC,,,,,,,,,,18
+19,RHB,,,,,,,,,,19
+20,RHA,,,,,,,,,,20
+21,RMC,,,,,,,,,,21
+22,RMB,,,,,,,,,,22
+23,RMA,,,,,,,,,,23
+24,RLB,,,,,,,,,,24
+25,RLA,,,,,,,,,,25
+26,ES3,,,,,,,,,,26
+27,ES2,,,,,,,,,,27
+28,ES1,,,,,,,,,,28
+29,HE2,,,,,,,,,,29
+30,HE1,,,,,,,,,,30
+31,HD2,,,,,,,,,,31
+32,HD1,,,,,,,,,,32
+33,HC2,,,,,,,,,,33
+34,HC1,,,,,,,,,,34
+35,HB2,,,,,,,,,,35
+36,HB1,,,,,,,,,,36
+37,LE2,,,,,,,,,,37
+38,LE1,,,,,,,,,,38
+39,LD2,,,,,,,,,,39
+40,LD1,,,,,,,,,,40
+41,LC2,,,,,,,,,,41
+42,LC1,,,,,,,,,,42
+43,LB2,,,,,,,,,,43
+44,LB1,,,,,,,,,,44
+45,CE2,,,,,,,,,,45
+46,CE1,,,,,,,,,,46
+47,CD2,,,,,,,,,,47
+48,CD1,,,,,,,,,,48
+49,CC2,,,,,,,,,,49
+50,CC1,,,,,,,,,,50
+51,CB2,,,,,,,,,,51
+52,CB1,,,,,,,,,,52
+53,CA2,,,,,,,,,,53
+54,CA1,,,,,,,,,,54
+,,,,,,,,SNF,Swing Bed SNF,TOTAL,
+,,,,Group,,,,Days,Days,(sum of col. 2 + 3),
+,,,,1,,,,2,3,4,
+55,SE3,,,,,,,,,,55
+56,SE2,,,,,,,,,,56
+57,SE1,,,,,,,,,,57
+58,SSC,,,,,,,,,,58
+59,SSB,,,,,,,,,,59
+60,SSA,,,,,,,,,,60
+61,IB2,,,,,,,,,,61
+62,IB1,,,,,,,,,,62
+63,IA2,,,,,,,,,,63
+64,IA1,,,,,,,,,,64
+65,BB2,,,,,,,,,,65
+66,BB1,,,,,,,,,,66
+67,BA2,,,,,,,,,,67
+68,BA1,,,,,,,,,,68
+69,PE2,,,,,,,,,,69
+70,PE1,,,,,,,,,,70
+71,PD2,,,,,,,,,,71
+72,PD1,,,,,,,,,,72
+73,PC2,,,,,,,,,,73
+74,PC1,,,,,,,,,,74
+75,PB2,,,,,,,,,,75
+76,PB1,,,,,,,,,,76
+77,PA2,,,,,,,,,,77
+78,PA1,,,,,,,,,,78
+199,AAA,,,,,,,,,,199
+200,TOTAL,,,,,,,,,,200
+,,,,,,,,,,,
+,SNF SERVICES,,,,,,,,,,
+,,,,,,,,,CBSA at,CBSA on/after,
+,,,,,,,,,Beginning of,October 1 of the,
+,,,,,,,,,Cost Reporting,Cost Reporting,
+,,,,,,,,,Period,Period (if applicable),
+,,,,,,,,,1,2,
+201," Enter in column 1 the SNF CBSA code, or 5 character non-CBSA code if a rural facility, in effect at the beginning",,,,,,,,,,201
+, of the cost reporting period.,,,,,,,,,,
+, Enter in column 2 the code in effect on or after October 1 of the cost reporting period (if applicable).,,,,,,,,,,
+,,,,,,,,,,,
+," A notice published in the Federal Register Volume 68, No. 149 August 4, 2003 provided for an increase in the RUG payments beginning 10/01/2003.  Congress expected this",,,,,,,,,,
+, increase to be used for direct patient care and related expenses.  For lines 202 through 207:  Enter in column 1 the amount of the expense for each category.  Enter in column 2,,,,,,,,,,
+," the percentage of total expenses for each category to total SNF revenue from Worksheet G-2, Part I, line 7, column 3.  In column 3, enter ""Y"" or ""N"" for no if the spending",,,,,,,,,,
+, reflects increases associated with direct patient care and related expenses for each category.  (see instructions),,,,,,,,,,
+,,,,,,,,,,Associated with,
+,,,,,,,,,,Direct Patient Care,
+,,,,,,,,Expenses,Percentage,and Related Expenses?,
+,,,,,,,,1,2,3,
+202, Staffing,,,,,,,,,,202
+203, Recruitment,,,,,,,,,,203
+204, Retention of employees,,,,,,,,,,204
+205, Training,,,,,,,,,,205
+206, Other (Specify),,,,,,,,,,206
+207," Total SNF revenue (Worksheet G-2, Part I, line 7, column 3)",,,,,,,,,,207

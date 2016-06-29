@@ -1,0 +1,54 @@
+,PART I - PATIENT REVENUES,,,,,
+,,,,,,
+,,,INPATIENT,OUTPATIENT, TOTAL,
+,REVENUE CENTER,,1,2,3,
+,GENERAL INPATIENT ROUTINE CARE SERVICES,,,,,
+1, Hospital,,,,,1
+2, Subprovider IPF,,,,,2
+3, Subprovider IRF,,,,,3
+4, Subprovider  (Other),,,,,4
+5, Swing bed - SNF,,,,,5
+6, Swing bed - NF,,,,,6
+7, Skilled nursing facility,,,,,7
+8, Nursing facility,,,,,8
+9, Other long term care,,,,,9
+10, Total general inpatient care services (sum of lines 1-9),,,,,10
+,INTENSIVE CARE TYPE INPATIENT HOSPITAL SERVICES,,,,,
+11, Intensive care unit,,,,,11
+12, Coronary care unit,,,,,12
+13, Burn intensive care unit,,,,,13
+14, Surgical intensive care unit,,,,,14
+15, Other special care (specify),,,,,15
+16, Total intensive care type inpatient hospital services (sum of,,,,,16
+, of lines 11-15),,,,,
+17, Total inpatient routine care services (sum of lines 10 and 16),,,,,17
+18, Ancillary services,,,,,18
+19, Outpatient services,,,,,19
+20, Rural Health Clinic (RHC),,,,,20
+21, Federally Qualified Health Center (FQHC),,,,,21
+22, Home health agency,,,,,22
+23, Ambulance,,,,,23
+24, Outpatient rehabilitation providers,,,,,24
+25, ASC,,,,,25
+26, Hospice,,,,,26
+27, Other (specify),,,,,27
+28, Total patient revenues (sum of lines 17-27) (transfer column 3 to,,,,,28
+," Worksheet G-3, line 1)",,,,,
+,,,,,,
+,PART II - OPERATING EXPENSES,,,,,
+,,,,1,2,
+29," Operating expenses (per Wkst. A, column 3, line 200)",,,,,29
+30, Add (specify),,,,,30
+31,,,,,,31
+32,,,,,,32
+33,,,,,,33
+34,,,,,,34
+35,,,,,,35
+36, Total additions (sum of lines 30-35),,,,,36
+37, Deduct (specify),,,,,37
+38,,,,,,38
+39,,,,,,39
+40,,,,,,40
+41,,,,,,41
+42, Total deductions (sum of lines 37-41),,,,,42
+43," Total operating expenses (sum of lines 29 and 36 minus line 42) (transfer to Worksheet G-3, line 4)",,,,,43

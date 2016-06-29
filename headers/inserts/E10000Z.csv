@@ -1,0 +1,54 @@
+4090 (Cont.),,,      FORM CMS-2552-10,,,,,,08-11
+ANALYSIS OF PAYMENTS TO PROVIDERS ,,, PROVIDER CCN:,,, PERIOD:,," WORKSHEET E-1,",
+FOR SERVICES RENDERED,,, ________________,,, FROM ____________,, PART I,
+,,, COMPONENT CCN:,,, TO _______________,,,
+,,, ________________,,,,,,
+Check,,   [ ] Hospital             [ ] Subprovider (Other),,,Inpatient,,,,
+applicable,,   [ ] IPF                    [ ] SNF,,,Part A ,,Part B,,
+box:,,   [ ] IRF                    [ ] Swing-Bed SNF,,,mm/dd/yyyy,Amount,mm/dd/yyyy,Amount,
+,Description,,,,1,2,3,4,
+1,Total interim payments paid to provider,,,,,,,,1
+2,"Interim payments payable on individual bills, either submitted or to be submitted to the intermediary",,,,,,,,2
+,"for services rendered in the cost reporting period.  If none, write ""NONE"" or enter a zero",,,,,,,,
+3,List separately each retroactive  ,,,0.01,,,,,3.01
+,lump sum adjustment amount based,,,0.02,,,,,3.02
+,on subsequent revision of the,,Program to ,0.03,,,,,3.03
+,interim rate for the cost reporting period.,,Provider,0.04,,,,,3.04
+,Also show date of each payment.,,,0.05,,,,,3.05
+,"If none, write ""NONE"" or enter a zero. (1)",,,0.5,,,,,3.5
+,,,,0.51,,,,,3.51
+,,,Provider to ,0.52,,,,,3.52
+,,,Program,0.53,,,,,3.53
+,,,,0.54,,,,,3.54
+,Subtotal (sum of lines 3.01- 3.49 minus sum of lines 3.50-3.98),,,0.99,,,,,3.99
+4,"Total interim payments (sum of lines 1, 2, and 3.99) ",,,,,,,,4
+,"(transfer to Wkst. E or Wkst. E-3, line",,,,,,,,
+,and column as appropriate),,,,,,,,
+,TO BE COMPLETED BY CONTRACTOR,,,,,,,,
+5,List separately each tentative settlement,,Program to,0.01,,,,,5.01
+,payment after desk review. Also show,,Provider,0.02,,,,,5.02
+,date of each payment.,,,0.03,,,,,5.03
+,"If none, write ""NONE"" or enter a zero. (1)",,,0.5,,,,,5.5
+,,,Provider to ,0.51,,,,,5.51
+,,,Program,0.52,,,,,5.52
+,Subtotal (sum of lines 5.01-5.49 minus sum of lines 5.50 -5.98),,,0.99,,,,,5.99
+6,Determined net settlement amount (balance,,Program to provider,0.01,,,,,6.01
+,due) based on the cost report (1),,Provider to program,0.02,,,,,6.02
+7,Total Medicare program liability (see instructions),,,,,,,,7
+8, Name of Contractor,,,,, Contractor Number,,Date (Month/Day/Year),8
+,,,,,,,,,
+,,,,,,,,,
+"(1) On lines 3, 5, and 6, where an amount is due provider to program, show the amount and date on which the provider agrees to the amount of repayment",,,,,,,,,
+even though total repayment is not accomplished until a later date.,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+"FORM CMS-2552-10 (08/2011) (INSTRUCTIONS FOR THIS WORKSHEET ARE PUBLISHED IN CMS PUB. 15-II, SECTION 4031)",,,,,,,,,
+40-588,,,,,,,,,Rev. 2

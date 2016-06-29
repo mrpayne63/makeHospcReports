@@ -1,0 +1,33 @@
+,,NET EXPENSES,CAPITAL,,,,,,,
+,,FOR COST,RELATED COSTS,,,,,,,
+,,ALLOCATION,,,PLANT,,,ADMINIS-,,
+,,(from Wkst.,BLDGS. &,MOVABLE,OPERATION &,TRANS-,SUBTOTAL,TRATIVE,TOTAL,
+,,"H, col. 10)",FIXTURES,EQUIPMENT,MAINTENANCE,PORTATION,(cols. 0-4),& GENERAL,(cols. 4a + 5),
+,,0,1,2,3,4,4a,5,6,
+, GENERAL SERVICE COST CENTERS,,,,,,,,,
+1, Capital Related-Bldgs. and Fixtures,,,,,,,,,1
+2, Capital Related-Movable Equipment,,,,,,,,,2
+3, Plant Operation & Maintenance,,,,,,,,,3
+4, Transportation (see instructions),,,,,,,,,4
+5, Administrative and General,,,,,,,,,5
+, HHA REIMBURSABLE SERVICES,,,,,,,,,
+6, Skilled Nursing Care,,,,,,,,,6
+7, Physical Therapy,,,,,,,,,7
+8, Occupational Therapy,,,,,,,,,8
+9, Speech Pathology,,,,,,,,,9
+10, Medical Social Services,,,,,,,,,10
+11, Home Health Aide,,,,,,,,,11
+12, Supplies (see instructions),,,,,,,,,12
+13, Drugs,,,,,,,,,13
+14, DME,,,,,,,,,14
+, HHA NONREIMBURSABLE SERVICES,,,,,,,,,
+15, Home Dialysis Aide Services,,,,,,,,,15
+16, Respiratory Therapy,,,,,,,,,16
+17, Private Duty Nursing,,,,,,,,,17
+18, Clinic,,,,,,,,,18
+19, Health Promotion Activities,,,,,,,,,19
+20, Day Care Program,,,,,,,,,20
+21, Home Delivered Meals Program,,,,,,,,,21
+22, Homemaker Service,,,,,,,,,22
+23, All Others,,,,,,,,,23
+24,Totals (sum of lines 1-23),,,,,,,,,24

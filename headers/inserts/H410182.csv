@@ -1,0 +1,30 @@
+,PART II - COMPUTATION OF HHA REIMBURSEMENT SETTLEMENT,,,,,
+,,,,Part A Services,Part B Services,
+,        Description,,,1,2,
+10, Total reasonable cost (see instructions),,,,,10
+11, Total PPS Reimbursement - Full Episodes without Outliers,,,,,11
+12, Total PPS Reimbursement - Full Episodes with Outliers,,,,,12
+13, Total PPS Reimbursement - LUPA Episodes,,,,,13
+14, Total PPS Reimbursement - PEP Episodes,,,,,14
+15, Total PPS Outlier Reimbursement - Full Episodes with Outliers,,,,,15
+16, Total PPS Outlier Reimbursement - PEP Episodes,,,,,16
+17, Total Other Payments,,,,,17
+18, DME Payments,,,,,18
+19, Oxygen Payments,,,,,19
+20, Prosthetic and Orthotic Payments,,,,,20
+21, Part B deductibles billed to Medicare patients (exclude coinsurance),,,,,21
+22, Subtotal (sum of lines 10 thru 20 minus line 21),,,,,22
+23, Excess reasonable cost (from line 8),,,,,23
+24, Subtotal (line 22 minus line 23),,,,,24
+25, Coinsurance billed to program patients (from your records),,,,,25
+26, Net cost (line 24 minus line 25),,,,,26
+27, Reimbursable bad debts (from your records),,,,,27
+28, Reimbursable bad debts for dual eligible beneficiaries (see instructions),,,,,28
+29, Total costs - current cost reporting period (line 26 plus line 27),,,,,29
+30, Other adjustments (see instructions) (specify),,,,,30
+31, Subtotal (line 29 plus/minus line 30),,,,,31
+32, Interim payments (see instructions),,,,,32
+33, Tentative settlement (for contractor use only),,,,,33
+34, Balance due provider/program (line 31 minus lines 32 and 33),,,,,34
+35, Protested amounts (nonallowable cost report items) in accordance with CMS,,,,,35
+," Pub. 15-II, section 115.2",,,,,

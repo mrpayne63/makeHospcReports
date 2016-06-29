@@ -1,0 +1,33 @@
+,Check,,   [ ] Title V,   [ ] Swing Bed - SNF,,,
+,applicable,,   [ ] Title XVIII,   [ ] Swing Bed - NF,,,
+,boxes:,,   [ ] Title XIX,,,,
+,,,,,,,
+,,,,,PART A,PART B,
+,COMPUTATION OF NET COST OF COVERED SERVICES,,,,1,2,
+1, Inpatient routine services - swing bed-SNF  (see instructions),,,,,,1
+2, Inpatient routine services - swing bed-NF  (see instructions),,,,,,2
+3," Ancillary services (from Wkst. D-3, column 3, line 200 for Part A, and sum of Wkst. D, Part V,",,,,,,3
+," columns 5 and 7, line 202 for Part B)  (For CAH, see instructions)",,,,,,
+4, Per diem cost for interns and residents not in approved teaching program  (see instructions),,,,,,4
+5, Program days,,,,,,5
+6, Interns and residents not in approved teaching program (see instructions),,,,,,6
+7, Utilization review - physician compensation - SNF optional method only,,,,,,7
+8, Subtotal (sum of lines 1 through 3 plus lines 6 and 7),,,,,,8
+9, Primary payer payments  (see instructions),,,,,,9
+10, Subtotal (line 8 minus line 9),,,,,,10
+11, Deductibles billed to program patients (exclude amounts applicable to physician professional,,,,,,11
+, services),,,,,,
+12, Subtotal (line 10 minus line 11),,,,,,12
+13, Coinsurance billed to program patients (from provider records) (exclude coinsurance for,,,,,,13
+, physician professional services),,,,,,
+14, 80% of Part B costs (line 12 x 80%),,,,,,14
+15," Subtotal (enter the lesser of line 12 minus line 13, or line 14)",,,,,,15
+16, Other adjustments  (specify)  (see instructions),,,,,,16
+17, Reimbursable bad debts  (see instructions),,,,,,17
+18, Reimbursable bad debts for dual eligible beneficiaries  (see instructions),,,,,,18
+19," Total (sum of lines 15 and 17, plus/minus line 16)",,,,,,19
+20, Interim payments ,,,,,,20
+21, Tentative settlement (for contractor use only),,,,,,21
+22, Balance due provider/program (line 19 minus the sum of lines 20 and 21),,,,,,22
+23," Protested amounts (nonallowable cost report items) in accordance with CMS Pub. 15-II,",,,,,,23
+, section 115.2,,,,,,

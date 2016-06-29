@@ -1,0 +1,70 @@
+3890 (Cont.),,,,,,FORM CMS-1984-99,,,,,09-11
+,,,,,,PROVIDER NO.:,,PERIOD:,,,
+HOSPICE IDENTIFICATION DATA ,,,,,,,,FROM:,,WORKSHEET S-1,
+,,,,,,,,TO:,,,
+PART I,,,,,,,,,,,
+1 ,Name:,,,,Address:,,,City:,State:,Zip Code:     ,1 
+2 ,County where the hospice is located,,,,,,,,,,2 
+,,,,,,,,,,Date,
+3 ,Hospice began operation (mm/dd/yyyy),,,,,,,,,,3 
+,,,,,,,,,Dated certified,Dated certified,
+,,,,,,,,,Title XVIII,Title XIX,
+4 ,Certification date  (mm/dd/yyyy),,,,,,,,,,4 
+5 ,Cost Reporting Period (mm/dd/yyyy),,,,,,From:,,To:   ,,5 
+6 ,Provider Identification Number,,,,,,,,,,6 
+6.01 ,National Provider Identifier (NPI) Number,,,,,,,,,,6.01 
+7 ,Type of Control (see instructions),,,,,,,,,,7 
+PART II,,,,,,,,,,,
+,,,,,Title XVIII,Title XIX,Title XVIII,Title XIX,,,
+,,,,,,,Unduplicated,Unduplicated,,,
+,,,Enrollment Days,,Unduplicated,Unduplicated, Skilled Nursing,Nursing,Other,Total,
+,,,,,Medicare Days,Medicaid Days,Facility Days,Facility Days,Unduplicated,Unduplicated Days,
+,,,,,1 ,2 ,3 ,4 ,5 ,6 ,
+8 ,Continuous Home Care,,,,,,,,,,8 
+9 ,Routine Home Care,,,,,,,,,,9 
+10 ,Inpatient Respite Care ,,,,,,,,,,10 
+11 ,Inpatient General Care,,,,,,,,,,11 
+12 ,Total Hospice Days,,,,,,,,,,12 
+PART III,,,,,,,,,,,
+,,,,,,,Title XVIII,Title XIX,,,
+,,,,,,,Skilled Nursing,Nursing,,,
+,,,,,Title XVIII,Title XIX,Facility,Facility,Other,Total,
+,,,,,1 ,2 ,3 ,4 ,5 ,6 ,
+13 ,Number of Patients Receiving Hospice Care,,,,,,,,,,13 
+,Total Number of Unduplicated Countinuous,,,,,,,,,,
+14 , Care Hours Billable to Medicare,,,,,,,,,,14 
+15 ,Average Length of Stay,,,,,,,,,,15 
+16 ,Unduplicated Census Count,,,,,,,,,,16 
+,"If the hospice componentized (or fragmented) its administrative and general service costs, indicate whether option one ",,,,,,,,,,
+17 ,"or two is being utilized (See PRM-II, Section 3820) (Enter ""1""for option one and ""2"" for option two)",,,,,,,,,,17 
+,"Are there any related organization or home office costs as defined in CMS Pub. 15-I, chapter 10?  Enter ""Y"" for yes or ""N"" for no",,,,,,,,,,
+18 ,"in column 1.  If yes, enter the chain home office provider number in column 2.",,,,,,,,,,18 
+PART IV,,,,,,,,,,,
+,,,,,,,,,Durable ,,
+,,,,,,,,Drug ,Medical Equipment/,Medical Supply,
+,,,,,,`,, Costs,Oxygen Costs,Costs,
+,,,,,,,,1 ,2 ,3 ,
+19 ,Inpatient General Care (see instructions),,,,,,,,,,19 
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+"FORM CMS-1984-99 (9/2011) (INSTRUCTIONS FOR THIS WORKSHEET ARE PUBLISHED IN CMS PUB 15-II, SECTION 3807)",,,,,,,,,,,
+,,,,,,,,,,,
+38-104,,,,,,,,,,,Rev. 9

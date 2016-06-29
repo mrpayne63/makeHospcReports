@@ -1,0 +1,11 @@
+,Check,,   [ ] Title V,,,   [ ] Hospital,           [ ] Subprovider (Other),,[ ] ICF/MR,   [ ] PPS
+,applicable,,"   [ ] Title XVIII, Part A",,,   [ ] IPF,           [ ] SNF,,,   [ ] TEFRA
+,boxes:,,   [ ] Title XIX,,,   [ ] IRF,           [ ] NF,,,
+,,,,,,,,,,
+,,,,,,,,All,,Total
+,,,,,Non,,,Other ,,Outpatient
+,,,,,Physician,,,Medical,Total cost,Cost
+,,,,,Anesthetist,Nursing,Allied,Education,(sum of col 1,"(sum of col. 2,"
+,,,,,Cost,School,Health,Cost,through col. 4),3 and 4)
+,Cost Center Description,,,,1,2,3,4,5,6
+,ANCILLARY SERVICE COST CENTERS,,,,,,,,,

@@ -1,0 +1,45 @@
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,PART V - CALCULATION OF REIMBURSEMENT SETTLEMENT FOR MEDICARE PART A  SERVICES - COST REIMBURSEMENT (CAHs),,,,,
+,,,,,,
+1, Inpatient services,,,,,1
+2, Nursing and allied health managed care payment  (see instruction),,,,,2
+3, Organ acquisition,,,,,3
+4, Subtotal (sum of lines 1 thru 3),,,,,4
+5, Primary payer payments,,,,,5
+6," Total cost (line 5 less line 6)  (For CAH, see instructions)",,,,,6
+, COMPUTATION OF LESSER OF COST OR CHARGES,,,,,
+, Reasonable charges,,,,,
+7, Routine service charges,,,,,7
+8, Ancillary service charges,,,,,8
+9," Organ acquisition charges, net of revenue",,,,,9
+10, Total reasonable charges,,,,,10
+, Customary charges,,,,,
+11, Aggregate amount actually collected from patients liable for payment for services on a charge basis,,,,,11
+12, Amounts that would have been realized from patients liable for payment for services on,,,,,12
+, a charge basis had such payment been made in accordance with 42 CFR 413.13(e),,,,,
+13, Ratio of line 11 to line 12 (not to exceed 1.000000),,,,,13
+14, Total customary charges  (see instructions),,,,,14
+15, Excess of customary charges over reasonable cost (complete only if line 14 exceeds line 6)  (see instructions),,,,,15
+16, Excess of reasonable cost over customary charges (complete only if line 6 exceeds line 14)  (see instructions),,,,,16
+17," Cost of teaching physicians (from Worksheet D-5, Part II, column 3, line 20)  (see instructions)",,,,,17
+, COMPUTATION OF REIMBURSEMENT SETTLEMENT,,,,,
+18," Direct graduate medical education payments (from Worksheet E-4, line 49)",,,,,18
+19," Cost of covered services (sum of lines 6, 17 and 18)",,,,,19
+20, Deductibles (exclude professional component),,,,,20
+21, Excess reasonable cost (from line 16),,,,,21
+22, Subtotal (line 19 minus sum of lines 20 and 21),,,,,22
+23, Coinsurance,,,,,23
+24, Subtotal (line 22 minus line 23),,,,,24
+25, Allowable bad debts (exclude bad debts for professional services)  (see instructions),,,,,25
+26, Adjusted reimbursable bad debts (see instructions),,,,,26
+27, Allowable bad debts for dual eligible beneficiaries  (see instructions),,,,,27
+28, Subtotal (sum of lines 24 and 25 or 26 (line 26 hospital and subprovider only)),,,,,28
+29, Other adjustments (specify)  (see instructions)',,,,,29
+30," Subtotal (line 28, plus or minus line 29)",,,,,30
+31, Interim payments,,,,,31
+32, Tentative settlement (for contractor use only),,,,,32
+33," Balance due provider/program (line 30 minus the sum of lines 31, and 32)",,,,,33
+34," Protested amounts (nonallowable cost report items) in accordance with CMS Pub. 15-2, section 115.2",,,,,34

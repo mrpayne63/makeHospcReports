@@ -1,0 +1,38 @@
+Check,,   [ ]  Title V,,   [ ] PPS,,,,,,,,
+applicable ,,"   [ ]  Title XVIII, Part A",,   [ ] TEFRA,,,,,,,,
+boxes:,,   [ ]  Title XIX,,,,,,,,,,
+,,,,,All,Swing-Bed,,,,,Inpatient,
+,,,, ,Other ,Adjustment,Total Costs,,Per,,Program,
+,,,,,Medical,Amount,(sum of cols.,Total,Diem,Inpatient,Pass-Through,
+,,,Nursing ,Allied  Health,Education,(see,"1 through 3,",Patient,(col. 5 ÷,Program,Cost,
+,,,School,Cost,Cost,instructions), minus col. 4),Days,col. 6),Days,(col. 7 x col. 8),
+(A),Cost Center Description,,1,2,3,4,5,6,7,8,9,
+, INPATIENT ROUTINE SERVICE COST CENTERS,,,,,,,,,,,
+, Adults & Pediatrics,,,,,,,,,,,
+30, (General Routine Care),,,,,,,,,,,30
+,,,,,,,,,,,,
+31, Intensive Care Unit,,,,,,,,,,,31
+,,,,,,,,,,,,
+32, Coronary Care Unit,,,,,,,,,,,32
+,,,,,,,,,,,,
+33, Burn Intensive Care Unit,,,,,,,,,,,33
+,,,,,,,,,,,,
+34, Surgical Intensive Care Unit,,,,,,,,,,,34
+,,,,,,,,,,,,
+35, Other Special Care Unit (specify),,,,,,,,,,,35
+,,,,,,,,,,,,
+40, Subprovider IPF,,,,,,,,,,,40
+,,,,,,,,,,,,
+41, Subprovider IRF,,,,,,,,,,,41
+,,,,,,,,,,,,
+42, Subprovider  (Other),,,,,,,,,,,42
+,,,,,,,,,,,,
+43, Nursery,,,,,,,,,,,43
+,,,,,,,,,,,,
+44, Skilled Nursing Facility,,,,,,,,,,,44
+,,,,,,,,,,,,
+45, Nursing Facility,,,,,,,,,,,45
+,,,,,,,,,,,,
+200, Total (sum of lines 30-199),,,,,,,,,,,200
+,,,,,,,,,,,,
+,(A) Worksheet A line numbers,,,,,,,,,,,

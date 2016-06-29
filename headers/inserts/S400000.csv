@@ -1,0 +1,56 @@
+,HOME HEALTH AGENCY STATISTICAL DATA,,,,,,,        County: __________________,,,,
+,,,,,,,,,,,,
+,,,,,,,Title V,Title XVIII,Title XIX,Other,Total,
+, Description,,,,,,1,2,3,4,5,
+1, Home Health Aide Hours,,,,,,,,,,,1
+2, Unduplicated Census Count (see instructions),,,,,,,,,,,2
+,,,,,,,,,,,,
+,HOME HEALTH AGENCY - NUMBER OF EMPLOYEES,,,,,,,,,,,
+,,,,,,,,,Number of Employees,,,
+,Enter the number of hours in,,,,,,,,(Full Time Equivalent),,,
+,your normal work week _______,,,,,,,,Staff,Contract,Total,
+,,,,,,,,,1,2,3,
+3, Administrator and Assistant Administrator(s),,,,,,,,,,,3
+4, Director(s) and Assistant Director(s),,,,,,,,,,,4
+5, Other Administrative Personnel,,,,,,,,,,,5
+6, Direct Nursing Service,,,,,,,,,,,6
+7, Nursing Supervisor,,,,,,,,,,,7
+8, Physical Therapy Service,,,,,,,,,,,8
+9, Physical Therapy Supervisor,,,,,,,,,,,9
+10, Occupational Therapy Service,,,,,,,,,,,10
+11, Occupational Therapy Supervisor,,,,,,,,,,,11
+12, Speech Pathology Service,,,,,,,,,,,12
+13, Speech Pathology Supervisor,,,,,,,,,,,13
+14, Medical Social Service,,,,,,,,,,,14
+15, Medical Social Service Supervisor,,,,,,,,,,,15
+16, Home Health Aide,,,,,,,,,,,16
+17, Home Health Aide Supervisor,,,,,,,,,,,17
+18, Other (specify),,,,,,,,,,,18
+,,,,,,,,,,,,
+,HOME HEALTH AGENCY CBSA CODES,,,,,,,,,,,
+19, Enter the number of CBSAs where you provided services during the cost reporting period.,,,,,,,,,,,19
+20, List those CBSA code(s) serviced during this cost reporting period (line 20 contains the first code).,,,,,,,,,,,20
+,,,,,,,,,,,,
+, PPS ACTIVITY,,,,,,,,,,,
+,,,,,,,Full Episodes,,,,Total,
+,,,,,,,Without,With,LUPA,PEP only,(columns 1,
+,,,,,,,Outliers,Outliers,Episodes,Episodes,through 4),
+,,,,,,,1,2,3,4,5,
+21, Skilled Nursing Visits,,,,,,,,,,,21
+22, Skilled Nursing Visit Charges,,,,,,,,,,,22
+23, Physical Therapy Visits,,,,,,,,,,,23
+24, Physical Therapy Visit Charges,,,,,,,,,,,24
+25, Occupational Therapy Visits,,,,,,,,,,,25
+26, Occupational Therapy Visit Charges,,,,,,,,,,,26
+27, Speech Pathology Visits,,,,,,,,,,,27
+28, Speech Pathology Visit Charges,,,,,,,,,,,28
+29, Medical Social Service Visits,,,,,,,,,,,29
+30, Medical Social Service Visit Charges,,,,,,,,,,,30
+31, Home Health Aide Visits,,,,,,,,,,,31
+32, Home Health Aide Visit Charges,,,,,,,,,,,32
+33," Total visits (sum of lines 21, 23, 25, 27, 29, and 31)",,,,,,,,,,,33
+34, Other Charges,,,,,,,,,,,34
+35," Total Charges (sum of lines 22, 24, 26, 28, 30, 32, and 34)",,,,,,,,,,,35
+36, Total Number of Episodes (standard/non-outlier),,,,,,,,,,,36
+37, Total Number of Outlier Episodes,,,,,,,,,,,37
+38, Total Non-Routine Medical Supply Charges,,,,,,,,,,,38

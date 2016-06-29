@@ -1,0 +1,328 @@
+,,06-11,,,FORM CMS-1984-99,,,,3895 (Cont.)
+,,ELECTRONIC REPORTING SPECIFICATIONS FOR FORM CMS 1984-99,,,,,,,
+,,"TABLE 3 - LIST OF DATA ELEMENTS WITH WORKSHEET, LINE, AND COLUMN DESIGNATIONS",,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,INTRODUCTION,,,,
+,,,,,,,,,
+,,This table identifies those data elements necessary to calculate a hospice cost report.  It also identifies ,,,,,,,
+,,"some figures from a completed cost report.  These calculated fields (e.g., Worksheet B, column 7) are ",,,,,,,
+,,needed to verify the mathematical accuracy of the raw data elements and to isolate differences between ,,,,,,,
+,,the file submitted by the hospital complex and the report produced by the fiscal intermediary.  Where an,,,,,,,
+,,"adjustment is made, that record must be present in the electronic data file.  For explanations of the",,,,,,,
+,,"adjustment required, refer to the cost report instructions.",,,,,,,
+,,,,,,,,,
+,,"Table 3 ""Usage"" column is used to specify the format of each data item as follows:",,,,,,,
+,,,,,,,,,
+,,,,9,"  Numeric, greater than or equal to zero.",,,,
+,,,,-9,"  Numeric, may be either greater than or less than zero.",,,,
+,,,,9(x).9(y),"  Numeric, greater than zero, with x or fewer significant",,,,
+,,,,,"    digits to the left of the decimal point, a decimal point,",,,,
+,,,,,    and exactly y digits to the right of the decimal point.,,,,
+,,,,X,  Character.,,,,
+,,,,,,,,,
+,,Consistency in line numbering (and column numbering for general service cost centers) for each cost ,,,,,,,
+,,center is essential.  The sequence of some cost centers does change among worksheets. ,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,"Table 3 refers to the data elements needed from a standard cost report.  When a standard line is subscripted,",,,,,,,
+,,"the subscripted lines must be numbered sequentially with the first subline number displayed as ""01"" or ""1""",,,,,,,
+,,"in field locations 14-15.  It is unacceptable to format in series of 10, 20,  or skip subline numbers (i.e., 01, ",,,,,,,
+,,"03, except for skipping subline numbers for prior year cost center(s) deleted in the current period or initially",,,,,,,
+,,created cost center(s) no longer in existence after cost finding).  Exceptions are specified in this manual.,,,,,,,
+,,"For ""Other (specify)"" lines, i.e. any other non cost center lines, all subscripted lines should be in",,,,,,,
+,,"sequence and consecutively numbered beginning with subscripted subline ""01"".  Automated systems",,,,,,,
+,,should reorder these numbers where the provider skips or deletes a line number in the series.,,,,,,,
+,,,,,,,,,
+,,Drop all records with zero values from the file.  Any record absent from a file is treated as if it were zero.,,,,,,,
+,,,,,,,,,
+,,All numeric values are presumed positive.  Leading minus signs may only appear in data with values,,,,,,,
+,,"less than zero which are specified in Table 3 with a usage of ""-9"". ",,,,,,,
+,,,,,,,,,
+,,Italic script within this table denotes adjustments which are not displayed in the print image or hard copy,,,,,,,
+,,"of the cost report, but are contained in the ECR file.",,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,Rev. 8,,,,,,,38-213
+,,3895 (Cont.),,,FORM CMS-1984-99,,,,06-11
+,,ELECTRONIC REPORTING SPECIFICATIONS FOR FORM CMS 1984-99,,,,,,,
+,,"TABLE 3 - LIST OF DATA ELEMENTS WITH WORKSHEET, LINE, AND COLUMN DESIGNATIONS",,,,,,,
+,,,,,,,,,
+,,,,,,,,FIELD,
+,,,,DESCRIPTION,,LINE(S),COLUMN(S),SIZE,USAGE
+,,,,,,,,,
+,,,,,WORKSHEET S-1,,,,
+,,,,,,,,,
+,,Part I,,,,,,,
+,,,Name of the hospice,,,1,1,36,X
+,,,Address,,,1,2,36,X
+,,,City,,,1,3,36,X
+,,,State,,,1,4,2,X
+,,,Zip Code,,,1,5,10,X
+,,,County,,,2,1,36,X
+,,,Date hospice began operation (mm/dd/yyyy),,,3,1,10,X
+,,,Certification date (mm/dd/yyyy) for Title XVIII,,,4,1,10,X
+,,,Certification date (mm/dd/yyy) for Title XIX,,,4,2,10,X
+,,,Cost reporting period beginning date (mm/dd/yyyy),,,5,1,10,X
+,,,Cost reporting period ending date (mm/dd/yyyy),,,5,2,10,X
+,,,Provider number (xxxxxx),,,6,1,6,X
+,,,National Provider Identifier,,,6.01,1,10,X
+,,,Type of control (See Table 3B.),,,7,1,2,9
+,,,,,,,,,
+,,Part II - Enrollment Days,,,,,,,
+,,   Continuous Home Care,,,,8,1-5,11,9
+,,   Routine Home Care,,,,9,1-5,11,9
+,,   Inpatient Respite Care,,,,10,1-5,11,9
+,,   Inpatient General Care,,,,11,1-5,11,9
+,,Total Hospice days,,,,12,1-6,11,9
+,,,,,,,,,
+,,Part III - Census Data,,,,,,,
+,,   Number of Patients Receiving Hospice Care,,,,13,1-6,11,9
+,,   Unduplicated  Continuous Medicare Hours,,,,14,1 & 3,11,9(8).99
+,,   Average Length of Stay (line5/line 6),,,,15,1-6,11,9(8).99
+,,   Unduplicated Census Count,,,,16,1-6,11,9
+,,   If the hospice componentized (or fragmented) it’s administrative,,,,,,,
+,,"      and general service cost, indicate whether option one or",,,,,,,
+,,      or two is being utilized. (See instructions),,,,17,1,1,9
+,,   Are there any related organization or home office costs as defined ,,,,,,,
+,,"     in CMS Pub. 15-I, chapter 10?",,,,18,1,1,X
+,,"      If yes, enter home office chain number, if applicable. ",,,,18,2,6,X
+,,,,,,,,,
+,,Part IV - Inpatient General Care Costs,,,,,,,
+,,   Drug costs,,,,19,1,11,9
+,,   Durable medical equipment/oxygen costs,,,,19,2,11,9
+,,   Medcial supply costs,,,,19,3,11,9
+,,,,,,,,,
+,,,,,WORKSHEET A,,,,
+,,,,,,,,,
+,,Transportation,,,,"1-6,10-11, 15-25,",,,
+,,,,,,"30-39,  50-53",3,11,9
+,,Other costs,,,,"1-6,10-11, 15-25,",,,
+,,,,,,"30-39,  50-53",5,11,9
+,,Reclassifications,,,,"1-6,10-11, 15-25,",,,
+,,,,,,"30-39,  50-53",7,11,-9
+,,Adjustments,,,,"1-6,10-11, 15-25,",,,
+,,,,,,"30-39,  50-53",9,11,-9
+,,Net expense for allocation,,,,"1-6,10-11, 15-25,",,,
+,,,,,,"30-39,  50-53",10,11,-9
+,,Total,,,,100,1-10,11,-9
+,,,,,,,,,
+,,,,,"WORKSHEETS A-1, A-2, & A-3",,,,
+,,,,,,,,,
+,,"Salaries, benefits & Contract Services",,,,"3-6,10-11, 15-25,",,,
+,,,,,,"30-39,  50-53",1-8,11,-9
+,,,,,,"3-6,10-11, 15-25,",,,
+,,Total,,,,"30-39,  50-53",9,11,9
+,,,,,,,,,
+,,38-214,,,,,,,Rev. 8
+,,08-06,,,FORM CMS-1984-99,,,,3895 (Cont.)
+,,ELECTRONIC REPORTING SPECIFICATIONS FOR FORM CMS 1984-99,,,,,,,
+,,"TABLE 3 - LIST OF DATA ELEMENTS WITH WORKSHEET, LINE, AND COLUMN DESIGNATIONS",,,,,,,
+,,,,,,,,,
+,,,,,,,,FIELD,
+,,,,DESCRIPTION,,LINE(S),COLUMN(S),SIZE,USAGE
+,,,,,,,,,
+,,,,,WORKSHEET A-6,,,,
+,,,,,,,,,
+,,For each expense reclassification:,,,,,,,
+,,,Explanation,,,1-35,0,36,X
+,,,Increases:,,,,,,
+,,,,Adjustment letter(s),,1-35,1,2,X
+,,,,Worksheet A line number ,,1-35,3,6,9(3).99
+,,,,Reclassification salary amount,,1-35,4,11,9
+,,,,Reclassification other amount,,1-35,5,11,9
+,,,Decreases:,,,,,,
+,,,,Worksheet A line number,,1-35,7,6,9(3).99
+,,,,Reclassification salary amount,,1-35,8,11,9
+,,,,Reclassification other amount,,1-35,9,11,9
+,,,Total,,,100,"4, 5, 8 & 9",11,9
+,,,,,,,,,
+,,,,,WORKSHEET A-7,,,,
+,,,,,,,,,
+,,"For land, land improvements, buildings and fixtures, building",,,,,,,
+,,"  improvements, fixed and movable equipment, and in total:",,,,,,,
+,,   Analysis of changes in capital asset balances,,,,,,,
+,,,,Beginning balance,,1-9,1,11,9
+,,,,Purchases,,1-9,2,11,9
+,,,,Donations,,1-9,3,11,9
+,,,,Disposals and retirements,,1-9,5,11,9
+,,,,,,,,,
+,,,,,WORKSHEET A-8,,,,
+,,,,,,,,,
+,,Description of adjustment,,,,8,0,36,X
+,,Basis (A or B) *,,,,"1-2, 4-10, ",1,1,X
+,,Amount *,,,,1-10,2,11,-9
+,,Worksheet A line number +,,,,"1-2, 4-10",4,6,9(3).99
+,,Total,,,,11,2,11,-9
+,,,,,,,,,
+,,* These include subscripts of lines 1-2 and 4-10 requiring records for columns 1 and 2.  These subscripts should occur ,,,,,,,
+,,   based on Worksheet A layout.,,,,,,,
+,,"+ Do not include preprinted lines, i.e. lines 9-10.  ",,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,WORKSHEET A-8-1,,,,
+,,,,,,,,,
+,,Part A - For costs incurred and adjustments required as a,,,,,,,
+,,   result of transactions with related organization(s):,,,,,,,
+,,,,Worksheet A line number,,1-4,1,6,9(3).99
+,,,,Expense item(s),,1-4,3,36,X
+,,,,Amount allowable in reimbursable cost,,1-4,4,11,9
+,,,,Amount included in Worksheet A,,1-4,5,11,9
+,,,,Total,,5,4-5,11,-9
+,,Part B - For each related organization:,,,,,,,
+,,,,Type of interrelationship (A through G),,1-5,1,1,X
+,,,,"If type is G, description of relationship must be",,,,,
+,,,,  included.,,1-5,0,36,X
+,,,,Name of individual or partnership with interest,,,,,
+,,,,  in provider and related organization,,1-5,2,36,X
+,,,,Percent of ownership of provider,,1-5,3,6,9(3).99
+,,,,Name of related organization,,1-5,4,36,X
+,,,,Percent of ownership of related organization,,1-5,5,6,9(3).99
+,,,,Type of business,,1-5,6,15,X
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,Rev. 7,,,,,,,38-215
+,,3895 (Cont.),,,FORM CMS-1984-99,,,,08-06
+,,ELECTRONIC REPORTING SPECIFICATIONS FOR FORM CMS 1984-99,,,,,,,
+,,"TABLE 3 - LIST OF DATA ELEMENTS WITH WORKSHEET, LINE, AND COLUMN DESIGNATIONS",,,,,,,
+,,,,,,,,,
+,,,,,,,,FIELD,
+,,,,DESCRIPTION,,LINE(S),COLUMN(S),SIZE,USAGE
+,,,,,,,,,
+,,,,, WORKSHEETS B-1 HEADINGS*,,,,
+,,,,,,,,,
+,,Column heading (cost center name),,,,1-3*,1-6,10,X
+,,Statistical basis,,,,"4, 5*",1-6,10,X
+,,,,,,,,,
+,,,,,WORKSHEET B,,,,
+,,,,,,,,,
+,,Total adjustments after cost finding,,,,100,6,11,-9
+,,Costs after cost finding and post stepdown,,,,,,,
+,,  adjustments by department,,,,"10-11,",,,
+,,,,,,"15-25, 30-39,",,,
+,,,,,,50-53,7,11,-9
+,,Total costs after cost finding and post stepdown adjustments,,,,100,7,11,9
+,,,,,,,,,
+,,*,Refer to Table 1 for specifications and Table 2 for the worksheet identifier for column headings.  There may be up to five,,,,,,
+,,,"type 2 records (3 for cost center name and 2 for the statistical basis) for each column.  However, for any column which has",,,,,,
+,,,"less than five type 2 record entries, blank records or the word ""blank"" is not required to maximize each column record count.",,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,WORKSHEET B-1,,,,
+,,,,,,,,,
+,,For each cost allocation using accumulated costs as the,,,,,,,
+,,"  statistic, include a record containing an X.",,,,0,6,1,X
+,,All cost allocation statistics,,,,"1-6, 10-11,",,,
+,,,,,,"15-25, 30-39,",,,
+,,,,,,50-53,1-6*,11,9
+,,Reconciliation,,,,"1-6, 10-11,",,,
+,,,,,,"15-25, 30-39,",,,
+,,,,,,50-53,6A,11,-9
+,,,,,,,,,
+,,Total cost to be Allocated,,,,100,1-6,11,9
+,,,,,,,,,
+,,*,"  In each column using accumulated costs as the statistical basis for allocating costs, identify each cost center which is",,,,,,
+,,,  to receive no allocation with a negative 1 (-1) placed in the accumulated cost column.  Providers may elect to indicate,,,,,,
+,,,"  total accumulated cost as a negative amount in the reconciliation column.  However, there should never be entries in",,,,,,
+,,,  both the reconciliation column and accumulated column simultaneously on the same line.  For those cost centers which,,,,,,
+,,,"  are to receive partial allocation of costs, provide only the cost to be excluded from the statistic as a negative amount on",,,,,,
+,,,  the appropriate line in the reconciliation column. ,,,,,,
+,,,"  If line 6 is fragmented, line 6 must be deleted and subscripts of line 6 must be used.",,,,,,
+,,,,,,,,,
+,,+,  Include any column which uses accumulated cost as it basis for allocation.,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,WORKSHEET D,,,,
+,,,,,,,,,
+,,"Total cost (Worksheet B, line 100, col 7, less line 53, col. 7)",,,,1,4,11,-9
+,,"Total Unduplicated Days (Worksheet S-1, line 12, col. 6)",,,,2,4,11,9
+,,Average cost per diem (line 1 divided by line 2),,,,3,4,11,9(8).99
+,,"Unduplicated Medicare Days (Worksheet S-1, line 12, col.1)",,,,4,1,11,9
+,,Average Medicare cost (line 3 times line 4),,,,5,1,11,9
+,,"Unduplicated Medicaid Days (Worksheet S-1, line 12, col. 2)",,,,6,2,11,9
+,,Average  Medicaid cost (line 3 times line 6),,,,7,2,11,9
+,,"Unduplicated SNF days (Worksheet S-1, line 12, col. 3)",,,,8,1,11,9
+,,Average SNF cost (line 3 times line 8),,,,9,1,11,9
+,,"Unduplicated NF days (Worksheet S-1, line 12, col. 4)",,,,10,2,11,9
+,,Average NF cost (line 3 times line 10),,,,11,2,11,9
+,,"Other Unduplicated days (Worksheet S-1, line 12, col. 5)",,,,12,3,11,9
+,,Average NF cost (line 3 times line 12),,,,13,3,11,9
+,,,,,,,,,
+,,38-216,,,,,,,Rev. 7
+,,09-11,,,FORM CMS-1984-99,,,,3895 (Cont.)
+,,ELECTRONIC REPORTING SPECIFICATIONS FOR FORM CMS 1984-99,,,,,,,
+,,"TABLE 3 - LIST OF DATA ELEMENTS WITH WORKSHEET, LINE, AND COLUMN DESIGNATIONS",,,,,,,
+,,,,,,,,,
+,,,,,,,,FIELD,
+,,,,DESCRIPTION,,LINE(S),COLUMN(S),SIZE,USAGE
+,,,,,,,,,
+,,,,,WORKSHEET G,,,,
+,,,,,,,,,
+,,For the hospice:,,,,,,,
+,,Text as needed for blank lines,,,,48,0,36,X
+,,Balance sheet accounts,,,,"1-10, 12-26, 28-31,",,,
+,,,,,,"34-41, 43-48, 51",1,11,-9
+,,For hospices or hospices using fund accounting:,,,,,,,
+,,,Specific purpose fund account balances,,,"1-10, 12-26, 28-31,",,,
+,,,,,,"34-38,40-41, 43-48,",,,
+,,,,,,52,2,11,-9
+,,,Endowment fund account balances,,,"1-10, 12-26, 28-31,",,,
+,,,,,,"34-38,40-41, 43-48,",,,
+,,,,,,53-55,3,11,-9
+,,,Plant fund account balances,,,"1-10, 12-26, 28-31,",,,
+,,,,,,"34-38,40-41, 43-48,",,,
+,,,,,,56-57,4,11,-9
+,,Total Assets,,,,33,1-4,11,-9
+,,Total Liabilities and Fund Balance,,,,59,1-4,11,-9
+,,,,,,,,,
+,,NOTE:  Accumulated Depreciation lines will always be positive numbers unless otherwise specified.,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,WORKSHEET G-1,,,,
+,,,,,,,,,
+,,For hospices using fund accounting:,,,,,,,
+,,Text as needed for blank lines,,,,"4-9, 12-17",0,36,X
+,,,Beginning fund balances,,,1,1-4,11,-9
+,,,Additions and reductions to ,,,,,,
+,,,    beginning fund balances,,,"4-9, 12-17",1-4,11,-9
+,,,,,,,,,
+,,,,,,,,,
+,,,,,WORKSHEET G-2,,,,
+,,,,,,,,,
+,,Part I:,,,,,,,
+,,Skilled nursing facility based,,,,1,1,11,9
+,,Nursing facility based,,,,2,1,11,9
+,,Home care,,,,3,1,11,9
+,,Other (see instructions),,,,4,1,11,9
+,,State Medicaid room and board,,,,5,1,11,9
+,,Total general inpatient revenue,,,,6,1,11,9
+,,,,,,,,,
+,,Part II:,,,,,,,
+,,Text as needed for blank lines,,,,"2-7, 9-13",0,36,X
+,,Increases to operating expenses reported on Worksheet A,,,,2-7,1,11,9
+,,Decreases to operating expenses reported on Worksheet A,,,,9-13,1,11,9
+,,Total operating expenses,,,,15,2,11,9
+,,Net income/Loss,,,,16,2,11,-9
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,Rev. 9,,,,,,,38-217

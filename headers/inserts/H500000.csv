@@ -1,0 +1,47 @@
+,,,,,,,,,,,
+,,     Description,,,,,Part A,,Part B,,
+,,,,,,,mm/dd/yyyy,Amount,mm/dd/yyyy,Amount,
+,,,,,,,1,2,3,4,
+1, Total interim payments paid to provider ,,,,,,,,,,1
+2, Interim payments payable on individual bills either submitted or ,,,,,,,,,,2
+, to be submitted to the intermediary for services rendered in the,,,,,,,,,,
+," cost reporting period.  If none, write ""NONE"" or enter a zero.",,,,,,,,,,
+3, List separately each retroactive lump sum ,,,,,0.01,,,,,3.01
+, adjustment amount based on subsequent revision,,,,,0.02,,,,,3.02
+, of the interim rate for the cost reporting period.,,,,Program ,0.03,,,,,3.03
+," Also show date of each payment.  If none, write",,,,    to   ,0.04,,,,,3.04
+," ""NONE"" or enter a zero.(1)",,,,Provider,0.05,,,,,3.05
+,,,,,,0.5,,,,,3.5
+,                                ,,,,,0.51,,,,,3.51
+,,,,,Provider,0.52,,,,,3.52
+,                                 ,,,,    to   ,0.53,,,,,3.53
+,,,,,Program ,0.54,,,,,3.54
+, Subtotal (sum of lines 3.01-3.49 minus sum,,,,,,,,,,
+, of lines 3.50-3.98)                         ,,,,,0.99,,,,,3.99
+4," Total interim payments (sum of lines 1, 2, and 3.99)",,,,,,,,,,4
+," (transfer to Wkst. H-4, Part II, column as appropriate, line 32)",,,,,,,,,,
+,,,,,,,,,,,
+,,,TO BE COMPLETED BY INTERMEDIARY,,,,,,,,
+,,,,,,,,,,,
+5, List separately each tentative settlement payment ,,,,Program,0.01,,,,,5.01
+, after desk review.  Also show date of each ,,,,    to   ,0.02,,,,,5.02
+," payment.  If none, write ""NONE"" or enter     ",,,,Provider,0.03,,,,,5.03
+, a zero. (1),,,,Provider,0.5,,,,,5.5
+,,,,,    to   ,0.51,,,,,5.51
+,,,,,Program,0.52,,,,,5.52
+, Subtotal (sum of lines 5.01-5.49 minus sum  ,,,,,,,,,,
+, of lines 5.50-5.98)      ,,,,,0.99,,,,,5.99
+6, Determine net settlement amount (balance due),,,,Program,,,,,,
+, based on the cost report (see instructions),,,,    to   ,0.01,,,,,
+,,,,,Provider,,,,,,6.01
+,,,,,Provider,,,,,,
+,,,,,    to   ,0.02,,,,,
+,,,,,Program,,,,,,6.02
+7, TOTAL MEDICARE PROGRAM LIABILITY ,,,,,,,,,,7
+, (see instructions) ,,,,,,,,,,
+8, Name of Contractor,,,,    Contractor Number,,,"    Date:   Month, Day, Year",,,8
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+," (1)  On lines 3, 5, and 6, where an amount is due provider to program, show the amount and date on which the provider",,,,,,,,,,
+,"      agrees to the amount of repayment, even though total repayment is not accomplished until a later date.",,,,,,,,,,

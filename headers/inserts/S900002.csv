@@ -1,0 +1,15 @@
+,HOSPICE IDENTIFICATION DATA ,, PROVIDER CCN:,, PERIOD:,, WORKSHEET S-9,
+,,, ________________,, FROM ___________,, PARTS I & II,
+,,, HOSPICE NO.:,, TO ______________,,,
+,,, ________________,,,,,
+,,,,,,,,
+,PART II - CENSUS DATA,,,,,,,
+,,,,Title XVIII,Title XIX,,Total,
+,,,,Skilled Nursing,Nursing,All,(sum of,
+,,Title XVIII,Title XIX,Facility ,Facility,Other,"cols. 1, 2 & 5)",
+,,1,2,3,4,5,6,
+6, Number of Patients Receiving Hospice Care,,,,,,,6
+7, Total Number of Unduplicated Continuous,,,,,,,7
+, Care Hours Billable to Medicare,,,,,,,
+8, Average Length of Stay (line 5/line 6),,,,,,,8
+9, Unduplicated Census Count,,,,,,,9
