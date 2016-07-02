@@ -26,7 +26,7 @@ var connection = mysql.createConnection({
     host : 'localhost',
     user : 'nodeuser',
     password : 'Cheese2000',
-    database : 'HOSPC'
+    database : schema
 });
 
 connection.connect(function(err) {
@@ -41,7 +41,7 @@ var connection2 = mysql.createConnection({
     host : 'localhost',
     user : 'nodeuser',
     password : 'Cheese2000',
-    database : 'HOSPC'
+    database : schema
 });
 
 connection2.connect(function(err) {
@@ -55,13 +55,13 @@ connection2.connect(function(err) {
 
 var prod = false;
 var baseDir = 'debug/';
-var sql = "select RPT_REC_NUM,WKSHT_CD from HOSPC.hospc_2013_DATA group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";
+var sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";
 
 if(entity){
-	sql = "select RPT_REC_NUM,WKSHT_CD from HOSPC.hospc_2013_DATA where RPT_REC_NUM = "+entity+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";
+	sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" where RPT_REC_NUM = "+entity+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";
 
 }
-//console.log(sql);
+console.log(sql);
 var spacerArray = createArray(4,6);
 spacerArray[0][0] = '----------------';
 spacerArray[0][1] = '----------------';
@@ -101,12 +101,12 @@ connection.query(sql,function(err, rows) {
 	for (i = 0; i < rows.length; i++) {
 
         tmpLine0[0] = rows[i].WKSHT_CD + ' Report';
-        sql2 = "select RPT_REC_NUM,WKSHT_CD,LINE_NUM,CLMN_NUM,item myvalue from hospc_2013_DATA where RPT_REC_NUM like '"
+        sql2 = "select RPT_REC_NUM,WKSHT_CD,LINE_NUM,CLMN_NUM,item myvalue from "+schema+"."+table+" where RPT_REC_NUM like '"
             
                 + rows[i].RPT_REC_NUM
                 + "' and WKSHT_CD like '"
                 + rows[i].WKSHT_CD
-              // + "' union select RPT_REC_NUM,WKSHT_CD,LINE_NUM,CLMN_NUM,item myvalue from HCRIS.STRONG_HEADERS4_2013 where RPT_REC_NUM like '"
+              // + "' union select RPT_REC_NUM,WKSHT_CD,LINE_NUM,CLMN_NUM,item myvalue from "+schema+"."+table2+" where RPT_REC_NUM like '"
                // + rows[i].RPT_REC_NUM
                 //+ "' and WKSHT_CD like '"
                 //+ rows[i].WKSHT_CD
