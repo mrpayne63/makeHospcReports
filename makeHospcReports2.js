@@ -61,7 +61,7 @@ if(entity){
 	sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" where RPT_REC_NUM = "+entity+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";
 
 }
-console.log(sql);
+//console.log(sql);
 var spacerArray = createArray(4,6);
 spacerArray[0][0] = '----------------';
 spacerArray[0][1] = '----------------';
@@ -124,7 +124,8 @@ connection.query(sql,function(err, rows) {
 
 
             var myfile2 = mydir
-                    + '/' + tmpReportID
+                    + '/' + thisHospID + '-'
+                    + tmpReportID
                     + '.csv';
 
             var tmpLineNUM = '';
@@ -143,9 +144,13 @@ connection.query(sql,function(err, rows) {
                 var thisColumnNUM = rows2[i].CLMN_NUM;
                 var thisSheetLetter = rows2[i].WKSHT_CD.substring(0,1);
 
-
+                	
                 
-thisReportHearedCSV = 'headers/templates/'+thisReportID+'.csv';
+                thisReportHearedCSV = 'headers/templates/'+thisReportID+'.csv';
+                
+                if (!fs.existsSync(thisReportHearedCSV)) {
+                	thisReportHearedCSV = 'NoHeader.csv';
+                }
                 
                 if(tmpSheetLetter != thisSheetLetter){
                      sheetArray = new Array();
@@ -163,9 +168,9 @@ thisReportHearedCSV = 'headers/templates/'+thisReportID+'.csv';
                 if (newFile) {
 
                     myfile2 = mydir
-                            + '/'
-                            + rows2[i].WKSHT_CD
-                            + '.csv';
+                    + '/' + thisHospID + '-'
+                    + tmpReportID
+                    + '.csv';
                     newFile = false;
                 }
 
@@ -268,9 +273,8 @@ thisReportHearedCSV = 'headers/templates/'+thisReportID+'.csv';
             
             // write sheet report
             
-            tmpFile2 = mydir + '/Sheet_' + tmpSheetLetter + '.csv';
-
-           
+            tmpFile2 = mydir + '/'+ schema + '-' + table + '-'+ thisHospID 
+            	+ '-Sheet' + tmpSheetLetter + '.csv';
             
             sheetArrayPROD = createArray(sheetArray.length, 20);
 
@@ -293,7 +297,7 @@ thisReportHearedCSV = 'headers/templates/'+thisReportID+'.csv';
 					console.log(tmpFile2 + ' saved');
 				});
 			}
-			var tmpFile3 = mydir + '/PRODSheet_' + tmpSheetLetter + '.csv';
+			var tmpFile3 = mydir + '/'+ thisHospID +'-Sheet_' + tmpSheetLetter + '.csv';
 
             var csv5 = sheetArrayPROD.map(function(d) {
                 return JSON.stringify(d);
