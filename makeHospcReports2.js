@@ -57,7 +57,7 @@ connection2.connect(function(err) {
 
 var prod = false;
 var baseDir = 'debug/';
-var sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD limit 100";
+var sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";// limit 100";
 
 if(entity){
 	sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" where RPT_REC_NUM = "+entity+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";
@@ -314,11 +314,12 @@ connection.query(sql,function(err, rows) {
                 if (err)
                     throw err;
                 console.log(tmpFile3 + ' saved');
+                if(lastEntity + lastReport == thisHospID + thisReportID){
+                	process.exit(0);
+                }
             });
             
-            if(lastEntity + lastReport == thisHospID + thisReportID){
-            	process.exit(0);
-            }
+
             
 
             
