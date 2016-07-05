@@ -1,0 +1,7 @@
+"Schema: HOSPC TABLE: hospc_2013_DATA","----------"," Entity 32589"," Report A700000 ","-------------","-------------","-----------",""
+"","","Beginning","","","","and","Ending"
+"","Description","Balances","Purchases","Donation","Total","Retirements","Balance"
+"","","1","2","3","4","5","6"
+"Entity[32589] Report(A700000)", , ,"Entity[32589] Report(A700000[0200])", ,"Entity[32589] Report(A700000[0400])", ,"Entity[32589] Report(A700000[0600])"
+"Line(00600)", , ,"20233", ,"20233", ,"20233"
+"Line(00700)", , ,"20233", ,"20233", ,"20233"

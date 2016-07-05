@@ -1,0 +1,8 @@
+"Schema: HOSPC TABLE: hospc_2013_DATA","----------"," Entity 32352"," Report A300000 ","-------------","-------------","-----------",""
+"","COST CENTER DESCRIPTIONS","ADMINIS-","","SOCIAL","","","TOTAL","","",""
+"","(omit cents)","TRATOR","DIRECTOR","SERVICES","SUPERVISORS","NURSES","THERAPISTS","AIDES","ALL OTHER","TOTAL (1)"
+"","","1","2","3","4","5","6","7","8","9"
+"","GENERAL SERVICE COST CENTERS","","","","","","","","",""
+"Entity[32352] Report(A300000)", , ,"Entity[32352] Report(A300000[0200])", , , , , ,"Entity[32352] Report(A300000[0800])","Entity[32352] Report(A300000[0900])"
+"Line(00600)", , , , , , , , ,"11085","11085"
+"Line(01500)", , ,"6777", , , , , , ,"6777"
