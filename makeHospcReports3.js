@@ -55,7 +55,7 @@ connection2.connect(function(err) {
 });
 
 
-var prod = false;
+var prod = true;
 var baseDir = 'debug/';
 var sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";// limit 100";
 
@@ -264,7 +264,7 @@ connection.query(sql,function(err, rows) {
             }
 
             
-            if (!prod) {
+            if (!prod && false) {
 				var mycsv = reportArray2.map(function(d) {
 					return JSON.stringify(d);
 				}).join('\n').replace(/(^\[)|(\]$)/mg, '').replace(/null/mg,
@@ -320,7 +320,7 @@ connection.query(sql,function(err, rows) {
             fs.writeFile(tmpFile3, csv5, function(err) {
                 if (err)
                     throw err;
-                console.log(tmpFile3 + ' saved');
+                //console.log(tmpFile3 + ' saved');
                 if(lastEntity + lastReport == thisHospID + thisReportID){
                 	process.exit(0);
                 }
