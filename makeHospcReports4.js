@@ -9,20 +9,33 @@ if (process.argv.length <= 2) {
 var entity = process.argv[2];
 var schema = 'HOSPC';
 var table = 'hospc_2013_DATA';
+var tmpSheetLetter = 'FIRST';
 var lastEntity;
 var lastReport;
-
-function createArray(length) {
-    var arr = new Array(length || 0),
-        i = length;
-
-    if (arguments.length > 1) {
-        var args = Array.prototype.slice.call(arguments, 1);
-        while(i--) arr[length-1 - i] = createArray.apply(this, args);
-    }
-
-    return arr;
+var prod = true;
+var baseDir = 'debug/';
+if(prod) {	baseDir = 'reports/';}
+if (!fs.existsSync(baseDir)) {
+    fs.mkdirSync(baseDir);
 }
+var sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";// limit 100";
+if(entity){
+	sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" where RPT_REC_NUM = "+entity+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";
+}
+//console.log(sql);
+var spacerArray = createArray(4,6);
+spacerArray[0][0] = '----------------';
+spacerArray[0][1] = '----------------';
+spacerArray[0][2] = '----------------';
+spacerArray[0][3] = '----------------';
+spacerArray[0][4] = '----------------';
+spacerArray[0][5] = '----------------';
+spacerArray[1][0] = '----------------';
+spacerArray[1][1] = '----------------';
+spacerArray[1][2] = '----------------';
+spacerArray[1][3] = '----------------';
+spacerArray[1][4] = '----------------';
+spacerArray[1][5] = '----------------';
 
 var connection = mysql.createConnection({
     host : 'localhost',
@@ -54,41 +67,6 @@ connection2.connect(function(err) {
     }
 });
 
-
-var prod = true;
-var baseDir = 'debug/';
-var sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";// limit 100";
-
-if(entity){
-	sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" where RPT_REC_NUM = "+entity+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";
-
-}
-//console.log(sql);
-var spacerArray = createArray(4,6);
-spacerArray[0][0] = '----------------';
-spacerArray[0][1] = '----------------';
-spacerArray[0][2] = '----------------';
-spacerArray[0][3] = '----------------';
-spacerArray[0][4] = '----------------';
-spacerArray[0][5] = '----------------';
-spacerArray[1][0] = '----------------';
-spacerArray[1][1] = '----------------';
-spacerArray[1][2] = '----------------';
-spacerArray[1][3] = '----------------';
-spacerArray[1][4] = '----------------';
-spacerArray[1][5] = '----------------';
-
-
-var tmpSheetLetter = 'FIRST';
-
-if(prod) {
-	baseDir = 'reports/';
-}
-
-if (!fs.existsSync(baseDir)) {
-    fs.mkdirSync(baseDir);
-}
-
 connection.query(sql,function(err, rows) {
 	 var tmpHospID = rows[0].RPT_REC_NUM;
      var tmpReportID = rows[0].WKSHT_CD;
@@ -105,11 +83,9 @@ connection.query(sql,function(err, rows) {
 	for (i = 0; i < rows.length; i++) {
 
         tmpLine0[0] = rows[i].WKSHT_CD + ' Report';
-        sql2 = "select RPT_REC_NUM,WKSHT_CD,LINE_NUM,CLMN_NUM,item myvalue from "+schema+"."+table+" where RPT_REC_NUM like '"
-            
-                + rows[i].RPT_REC_NUM
-                + "' and WKSHT_CD like '"
-                + rows[i].WKSHT_CD
+        sql2 = "select RPT_REC_NUM,WKSHT_CD,LINE_NUM,CLMN_NUM,item myvalue from "
+        	+schema+"."+table+
+        	" where RPT_REC_NUM like '" + rows[i].RPT_REC_NUM  + "' and WKSHT_CD like '"  + rows[i].WKSHT_CD
    
                 + "' order by RPT_REC_NUM,WKSHT_CD,LINE_NUM,CLMN_NUM";
       //console.log(sql2);
@@ -143,9 +119,6 @@ connection.query(sql,function(err, rows) {
                 var thisLineNUM = rows2[i].LINE_NUM;
                 var thisColumnNUM = rows2[i].CLMN_NUM;
                 var thisSheetLetter = rows2[i].WKSHT_CD.substring(0,1);
-
-                	
-                
                 thisReportHearedCSV = 'headers/templates/'+thisReportID+'.csv';
                 
                 if (!fs.existsSync(thisReportHearedCSV)) {
@@ -212,8 +185,6 @@ connection.query(sql,function(err, rows) {
             }
             var data2 ;
             //data2[0] = '';
-
-
             if(thisReportHearedCSV)
             {
                 var cells = [];
@@ -247,12 +218,6 @@ connection.query(sql,function(err, rows) {
                     }
                    // console.log('\n');
                 }
-                //console.log('\n');
-                //console.log(cells);
-                //console.log('___________________________');
-                //console.log('\n');
-                //console.log(data2);
-                //data2 = cells;
             }
 
 
@@ -325,13 +290,22 @@ connection.query(sql,function(err, rows) {
                 }
             });
             
-
-            
-
-            
         }); // end connection2 callback
 
     } // end top for loop
 	
 
 }); // end connection callback
+
+
+function createArray(length) {
+    var arr = new Array(length || 0),
+        i = length;
+
+    if (arguments.length > 1) {
+        var args = Array.prototype.slice.call(arguments, 1);
+        while(i--) arr[length-1 - i] = createArray.apply(this, args);
+    }
+
+    return arr;
+}
