@@ -1,6 +1,0 @@
-"Schema: HOSPC TABLE: hospc_2013_DATA","----------"," Entity 32672"," Report A600010 ","-------------","-------------","-----------",""
-"","","CODE","","","","","","","",""
-"","EXPLANATION OF RECLASSIFICATION(S)","-1","COST CENTER","LINE #","SALARY","OTHER","COST CENTER","LINE #","SALARY","OTHER"
-"","","1","2","3","4","5","6","7","8","9"
-"Entity[32672] Report(A600010)","Entity[32672] Report(A600010[0000])","Entity[32672] Report(A600010[0100])","Entity[32672] Report(A600010[0200])","Entity[32672] Report(A600010[0300])", ,"Entity[32672] Report(A600010[0500])","Entity[32672] Report(A600010[0600])","Entity[32672] Report(A600010[0700])", ,"Entity[32672] Report(A600010[0900])"
-"Line(00100)","RECLASS THERAPY","A","PHYSICAL THERAPY","17", ,"5008","NURSING CARE","16", ,"5008"

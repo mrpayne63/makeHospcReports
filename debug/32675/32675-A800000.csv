@@ -1,8 +1,0 @@
-"Schema: HOSPC TABLE: hospc_2013_DATA","----------"," Entity 32675"," Report A800000 ","-------------","-------------","-----------",""
-"","-1","BASIS  FOR","","","WORKSHEET   A   TO / FROM   WHICH","",""
-"","Description","ADJUST-","","","THE   AMOUNT  IS  TO  BE  ADJUSTED","",""
-"","","MENT","AMOUNT","","COST  CENTER","","LINE  NO."
-"","","1","2","","3","","4"
-"Entity[32675] Report(A800000)","Entity[32675] Report(A800000[0000])","Entity[32675] Report(A800000[0100])","Entity[32675] Report(A800000[0200])","Entity[32675] Report(A800000[0300])","Entity[32675] Report(A800000[0400])"
-"Line(00800)","NURSING HOMEROOM AND BOARD","A","-73053","OTHER HOSPICE SERVICE COST CENTER","39"
-"Line(00801)","MEALS AND ENTERTAINMENT","A","-2612","ADMINISTRATIVE AND GENERAL","6"
