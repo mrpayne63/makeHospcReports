@@ -34,6 +34,7 @@ var sql2 = "SELECT *, 2013 myyear from "+schema+"."+table+"  where RPT_REC_NUM  
 + "union SELECT *, 2014 myyear from "+schema+"."+table+"  where RPT_REC_NUM  = "+entity
 +"  and WKSHT_CD = 'A000000' and CLMN_NUM in('1000') and LINE_NUM in ('01500','01600','01700','01800','01900')";
 
+var sql3 = "SELECT distinct(RPT_REC_NUM) entity from "+schema+"."+table;
 
 if(prod) {	
 	baseDir = 'JSON/';
@@ -51,6 +52,7 @@ if(prod) {
 	"SELECT *,2013 myyear FROM HOSPC.HOSPC_2013_CLXN where cmsid = " + entity + " and WKSHT_CD = 'A000000' and CLMN_NUM in('1000') and LINE_NUM in ('01500','01600','01700','01800','01900')"
 	+ " union "+
 	"SELECT *,2014 myyear FROM HOSPC.HOSPC_2014_CLXN where cmsid = " + entity + " and WKSHT_CD = 'A000000' and CLMN_NUM in('1000') and LINE_NUM in ('01500','01600','01700','01800','01900')";
+	sql3 = "SELECT distinct(cmsid) entity FROM HOSPC.HOSPC_2009_CLXN;"
 
 }
 if (!fs.existsSync(baseDir)) {
@@ -89,6 +91,22 @@ connection2.connect(function(err) {
         console.log("Error2 connecting database ... nn");
     }
 });
+
+var connection3 = mysql.createConnection({
+    host : db,
+    user : 'nodeuser',
+    password : 'Cheese2000',
+    database : schema
+});
+
+connection3.connect(function(err) {
+    if (!err) {
+        console.log("Database2 is connected ... nn");
+    } else {
+        console.log("Error2 connecting database ... nn");
+    }
+});
+
 var myRows = new Array();
 
 var dataArray = createArray(7,6);
@@ -100,6 +118,26 @@ connection.query(sql,function(err, rows) {
 	//	for (i = 0; i < 1; i++) {
 		//console.log(rows[i].ITEM);
 		myRows[i] = rows[i].ITEM;
+		//entityName +=  rows[i].ITEM.toString() + ',';
+		//console.log("XXX " + entityName);
+} // end top for loop
+	//var entityName = myRows.join(':');//[0].ITEM + ',' + rows[1].ITEM; //+ ',' +rows[2].ITEM + ',' +rows[3].ITEM + ',' +rows[4].ITEM ; 
+	//console.log(entityName);
+	
+	
+
+}); // end connection callback
+
+
+
+connection3.query(sql3,function(err, rows) {
+	//console.log(rows[0].ITEM + ',' + rows[1].ITEM + ',' +rows[2].ITEM + ',' +rows[3].ITEM + ',' +rows[4].ITEM);
+	console.log(sql3);
+	//var entityName = '';
+	for (var i = 0; i < rows.length; i++) {
+	//	for (i = 0; i < 1; i++) {
+		console.log(rows[i].entity);
+		//myRows[i] = rows[i].ITEM;
 		//entityName +=  rows[i].ITEM.toString() + ',';
 		//console.log("XXX " + entityName);
 } // end top for loop
