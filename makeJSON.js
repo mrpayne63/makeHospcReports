@@ -25,7 +25,7 @@ var table = 'hospc_2013_DATA';
 var tmpSheetLetter = 'FIRST';
 var lastEntity;
 var lastReport;
-var prod = true;
+var prod = false;
 var baseDir = 'JSON2/';
 var sql = "select ITEM from "+schema+"."+table+"  where RPT_REC_NUM  = "+entity+"  and  WKSHT_CD = 'S100000' and LINE_NUM = '00100'";
 
@@ -110,6 +110,13 @@ connection3.connect(function(err) {
 var myRows = new Array();
 
 var dataArray = createArray(7,6);
+for(var i=0;i<7;i++){
+	for(var j =0;j<6;j++){
+		dataArray[i][j] = 0;
+	}
+	
+}
+
 connection.query(sql,function(err, rows) {
 	//console.log(rows[0].ITEM + ',' + rows[1].ITEM + ',' +rows[2].ITEM + ',' +rows[3].ITEM + ',' +rows[4].ITEM);
 	var myfile = baseDir + entity + '.name';
@@ -269,8 +276,9 @@ connection2.query(sql2,    function(err, rows2) {
     console.log("\',");
     
      
-    console.log(' subtitle: \'Selected Cost Centers for 2009-2014\',\n'+
-	          '},\n isStacked:true\n };');
+    console.log(' subtitle: \'Selected Cost Centers for 2009-2014\'');
+    console.log("},\nlegend: { position: 'top', maxLines: 5 },");	         
+    console.log(' isStacked:true\n };');
     
     var myfile2 = baseDir + entity + '.csv';
     var csv4 = dataArray.map(function(d) {
