@@ -273,7 +273,7 @@ connection2.query(sql2,    function(err, rows2) {
             throw err;
         console.log(myfile2 + ' saved');
 
-        	//process.exit(0);
+        	process.exit(0);
        // var array = fs.readFileSync(myfile2).toString().split("\n");
         
         //console.log(array);
