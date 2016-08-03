@@ -112,18 +112,30 @@ var myRows = new Array();
 var dataArray = createArray(7,6);
 connection.query(sql,function(err, rows) {
 	//console.log(rows[0].ITEM + ',' + rows[1].ITEM + ',' +rows[2].ITEM + ',' +rows[3].ITEM + ',' +rows[4].ITEM);
-	
-	//var entityName = '';
+	var myfile = baseDir + entity + '.name';
+	var entityName = '';
 	for (var i = 0; i < rows.length; i++) {
+		
+		
 	//	for (i = 0; i < 1; i++) {
 		//console.log(rows[i].ITEM);
 		myRows[i] = rows[i].ITEM;
-		//entityName +=  rows[i].ITEM.toString() + ',';
+		entityName +=  rows[i].ITEM.toString() + '\n';
 		//console.log("XXX " + entityName);
 } // end top for loop
 	//var entityName = myRows.join(':');//[0].ITEM + ',' + rows[1].ITEM; //+ ',' +rows[2].ITEM + ',' +rows[3].ITEM + ',' +rows[4].ITEM ; 
 	//console.log(entityName);
-	
+	fs.writeFile(myfile, entityName, function(err) {
+        if (err)
+            throw err;
+        console.log(myfile + ' saved');
+
+        	//process.exit(0);
+       // var array = fs.readFileSync(myfile2).toString().split("\n");
+        
+        //console.log(array);
+
+    });
 	
 
 }); // end connection callback
@@ -133,17 +145,30 @@ connection.query(sql,function(err, rows) {
 connection3.query(sql3,function(err, rows) {
 	//console.log(rows[0].ITEM + ',' + rows[1].ITEM + ',' +rows[2].ITEM + ',' +rows[3].ITEM + ',' +rows[4].ITEM);
 	console.log(sql3);
-	//var entityName = '';
+	var tmpString = '';
+	var myfile3 = 'makeDataArray.sh';
 	for (var i = 0; i < rows.length; i++) {
+		
+		tmpString += 'node makeJSON.js ' + rows[i].entity + ';\n';
 	//	for (i = 0; i < 1; i++) {
-		console.log(rows[i].entity);
+		//console.log(rows[i].entity);
 		//myRows[i] = rows[i].ITEM;
 		//entityName +=  rows[i].ITEM.toString() + ',';
 		//console.log("XXX " + entityName);
 } // end top for loop
 	//var entityName = myRows.join(':');//[0].ITEM + ',' + rows[1].ITEM; //+ ',' +rows[2].ITEM + ',' +rows[3].ITEM + ',' +rows[4].ITEM ; 
 	//console.log(entityName);
-	
+	fs.writeFile(myfile3, tmpString, function(err) {
+        if (err)
+            throw err;
+        console.log(myfile3 + ' saved');
+
+        	//process.exit(0);
+       // var array = fs.readFileSync(myfile2).toString().split("\n");
+        
+        //console.log(array);
+
+    });	
 	
 
 }); // end connection callback
@@ -229,7 +254,7 @@ connection2.query(sql2,    function(err, rows2) {
     
     console.log(dataArray);
     
-    var myfile2 = baseDir + entity + '.JSON';
+    var myfile2 = baseDir + entity + '.csv';
     var csv4 = dataArray.map(function(d) {
 		return JSON.stringify(d);
 	}).join('\n');
@@ -239,9 +264,22 @@ connection2.query(sql2,    function(err, rows2) {
             throw err;
         console.log(myfile2 + ' saved');
 
-        	process.exit(0);
+        	//process.exit(0);
 
     });
+    myfile2 = baseDir + entity + '.array';
+    fs.writeFile(myfile2, JSON.stringify(dataArray), function(err) {
+        if (err)
+            throw err;
+        console.log(myfile2 + ' saved');
+
+        	//process.exit(0);
+       // var array = fs.readFileSync(myfile2).toString().split("\n");
+        
+        //console.log(array);
+
+    });
+    
     
 }); // end connection2 callback
 
