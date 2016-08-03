@@ -39,7 +39,7 @@ var sql3 = "SELECT distinct(RPT_REC_NUM) entity from "+schema+"."+table;
 if(prod) {	
 	baseDir = 'JSON/';
 	db = '10.10.10.11';
-	entity = 101508;
+	//entity = 101508;
 	sql = "select ITEM from HOSPC.HOSPC_2009_CLXN  where cmsid  = "+entity+"  and  WKSHT_CD = 'S100000' and LINE_NUM = '00100'";
 	sql2 = "SELECT *,2009 myyear FROM HOSPC.HOSPC_2009_CLXN where cmsid = " + entity + " and WKSHT_CD = 'A000000' and CLMN_NUM in('1000') and LINE_NUM in ('01500','01600','01700','01800','01900')"
 	+ " union "+
@@ -60,7 +60,7 @@ if (!fs.existsSync(baseDir)) {
 }
 
 
-console.log(sql);
+//console.log(sql);
 
 var connection = mysql.createConnection({
     host : db,
@@ -71,7 +71,7 @@ var connection = mysql.createConnection({
 
 connection.connect(function(err) {
     if (!err) {
-        console.log("Database is connected ... nn");
+        //console.log("Database is connected ... nn");
     } else {
         console.log("Error connecting database ... nn");
     }
@@ -86,7 +86,7 @@ var connection2 = mysql.createConnection({
 
 connection2.connect(function(err) {
     if (!err) {
-        console.log("Database2 is connected ... nn");
+        //console.log("Database2 is connected ... nn");
     } else {
         console.log("Error2 connecting database ... nn");
     }
@@ -101,9 +101,9 @@ var connection3 = mysql.createConnection({
 
 connection3.connect(function(err) {
     if (!err) {
-        console.log("Database2 is connected ... nn");
+        //console.log("Database3 is connected ... nn");
     } else {
-        console.log("Error2 connecting database ... nn");
+        console.log("Error3 connecting database ... nn");
     }
 });
 
@@ -119,7 +119,7 @@ connection.query(sql,function(err, rows) {
 		
 	//	for (i = 0; i < 1; i++) {
 		//console.log(rows[i].ITEM);
-		myRows[i] = rows[i].ITEM;
+		myRows[i] = rows[i].ITEM.toString().trim();
 		entityName +=  rows[i].ITEM.toString() + '\n';
 		//console.log("XXX " + entityName);
 } // end top for loop
@@ -128,7 +128,7 @@ connection.query(sql,function(err, rows) {
 	fs.writeFile(myfile, entityName, function(err) {
         if (err)
             throw err;
-        console.log(myfile + ' saved');
+       // console.log(myfile + ' saved');
 
         	//process.exit(0);
        // var array = fs.readFileSync(myfile2).toString().split("\n");
@@ -144,12 +144,12 @@ connection.query(sql,function(err, rows) {
 
 connection3.query(sql3,function(err, rows) {
 	//console.log(rows[0].ITEM + ',' + rows[1].ITEM + ',' +rows[2].ITEM + ',' +rows[3].ITEM + ',' +rows[4].ITEM);
-	console.log(sql3);
+	//console.log(sql3);
 	var tmpString = '';
 	var myfile3 = 'makeDataArray.sh';
 	for (var i = 0; i < rows.length; i++) {
-		
-		tmpString += 'node makeJSON.js ' + rows[i].entity + ';\n';
+		tmpString += "echo ' writing array for "+rows[i].entity +" ';\n ";
+		tmpString += 'node makeJSON.js ' + rows[i].entity + ' >  JSON/'+ rows[i].entity+'.html;\n';
 	//	for (i = 0; i < 1; i++) {
 		//console.log(rows[i].entity);
 		//myRows[i] = rows[i].ITEM;
@@ -161,7 +161,7 @@ connection3.query(sql3,function(err, rows) {
 	fs.writeFile(myfile3, tmpString, function(err) {
         if (err)
             throw err;
-        console.log(myfile3 + ' saved');
+       // console.log(myfile3 + ' saved');
 
         	//process.exit(0);
        // var array = fs.readFileSync(myfile2).toString().split("\n");
@@ -173,10 +173,18 @@ connection3.query(sql3,function(err, rows) {
 
 }); // end connection callback
 		
-
-console.log(sql2);
+dataArray[1][0] = '2009';
+dataArray[2][0] = '2010';
+dataArray[3][0] = '2011';
+dataArray[4][0] = '2012';
+dataArray[5][0] = '2013';
+dataArray[6][0] = '2014';
+//console.log(sql2);
 connection2.query(sql2,    function(err, rows2) {
-	console.log(myRows[0] + '\n'+ myRows[1] );
+	console.log('<title>');
+	console.log(myRows[0]);
+	console.log('</title>');
+	console.log('var data = google.visualization.arrayToDataTable(');
     dataArray[0][0] =  'Year';
     dataArray[0][1] =  '1500PHYSICIAN SERVICES';
     dataArray[0][2] = '1600NURSING CARE';
@@ -253,6 +261,16 @@ connection2.query(sql2,    function(err, rows2) {
 
     
     console.log(dataArray);
+    var mystring = myRows[0] + "'";
+    console.log(');\n'+
+    		'var options = {\n chart: {');
+    console.log("title:");
+    console.log("\'" + 	myRows[0].trim() );
+    console.log("\',");
+    
+     
+    console.log(' subtitle: \'Selected Cost Centers for 2009-2014\',\n'+
+	          '},\n isStacked:true\n };');
     
     var myfile2 = baseDir + entity + '.csv';
     var csv4 = dataArray.map(function(d) {
@@ -262,7 +280,7 @@ connection2.query(sql2,    function(err, rows2) {
     fs.writeFile(myfile2, csv4, function(err) {
         if (err)
             throw err;
-        console.log(myfile2 + ' saved');
+       // console.log(myfile2 + ' saved');
 
         	//process.exit(0);
 
@@ -271,7 +289,7 @@ connection2.query(sql2,    function(err, rows2) {
     fs.writeFile(myfile2, JSON.stringify(dataArray), function(err) {
         if (err)
             throw err;
-        console.log(myfile2 + ' saved');
+       // console.log(myfile2 + ' saved');
 
         	process.exit(0);
        // var array = fs.readFileSync(myfile2).toString().split("\n");
