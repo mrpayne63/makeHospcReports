@@ -18,22 +18,24 @@ if (process.argv.length <= 2) {
    // process.exit(-1);
 }
  
-var entity = process.argv[2];
+
 var schema = 'HOSPC';
-var table = 'hospc_2013_DATA';
+var table = process.argv[2];
 var tmpSheetLetter = 'FIRST';
 var lastEntity;
 var lastReport;
 var prod = false;
-var baseDir = 'static2/';
-if(prod) {	baseDir = 'static2/';}
+var baseDir = 'static2';
+if(prod) {	baseDir = 'static2';}
 if (!fs.existsSync(baseDir)) {
     fs.mkdirSync(baseDir);
 }
-var sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" where RPT_REC_NUM in(31394,32352,32494,32589,32672,32675,33085,33229,33312,33471,33962) group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";// limit 100";
-if(entity){
-	sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" where RPT_REC_NUM = "+entity+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";
-}
+
+
+
+
+var sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" where RPT_REC_NUM in(31394,32352,32494,32589,32672,32675,33085,33229,33312,33471,33962,'34033','34071','34375','35065','35167','35451','36073','36097','36447','36485') group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";// limit 100";
+
 var db = "localhost";
 if(prod) {	
 	
@@ -43,7 +45,7 @@ if(prod) {
 	sql = "select cmsid RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" where cmsid in ('101537','101529','101500','101508','421555','101515','451520','101518','051511') group by cmsid,WKSHT_CD order by cmsid,WKSHT_CD";
 		
 }
-//console.log(sql);
+console.log(sql);
 var spacerArray = createArray(4,6);
 spacerArray[0][0] = '----------------';
 spacerArray[0][1] = '----------------';
