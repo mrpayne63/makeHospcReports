@@ -24,15 +24,24 @@ var table = 'hospc_2013_DATA';
 var tmpSheetLetter = 'FIRST';
 var lastEntity;
 var lastReport;
-var prod = false;
-var baseDir = 'debug/';
-if(prod) {	baseDir = 'reports/';}
+var prod = true;
+var baseDir = 'static2/';
+if(prod) {	baseDir = 'static2/';}
 if (!fs.existsSync(baseDir)) {
     fs.mkdirSync(baseDir);
 }
-var sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";// limit 100";
+var sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" where RPT_REC_NUM in(31394,32352,32494,32589,32672,32675,33085,33229,33312,33471,33962) group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";// limit 100";
 if(entity){
 	sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" where RPT_REC_NUM = "+entity+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";
+}
+var db = "localhost";
+if(prod) {	
+	
+	db = '10.10.10.11';
+	//entity = 101508;
+	table = 'HOSPC_2009_CLXN';
+	sql3 = "select cmsid RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" where cmsid in ('101537','101529','101500','101508','421555','101515','451520','101518','051511') group by cmsid,WKSHT_CD order by cmsid,WKSHT_CD";
+		
 }
 //console.log(sql);
 var spacerArray = createArray(4,6);
@@ -50,7 +59,7 @@ spacerArray[1][4] = '----------------';
 spacerArray[1][5] = '----------------';
 
 var connection = mysql.createConnection({
-    host : 'localhost',
+    host : db,
     user : 'nodeuser',
     password : 'Cheese2000',
     database : schema
@@ -65,7 +74,7 @@ connection.connect(function(err) {
 });
 
 var connection2 = mysql.createConnection({
-    host : 'localhost',
+    host : db,
     user : 'nodeuser',
     password : 'Cheese2000',
     database : schema
@@ -95,10 +104,16 @@ connection.query(sql,function(err, rows) {
 	for (i = 0; i < rows.length; i++) {
 
         tmpLine0[0] = rows[i].WKSHT_CD + ' Report';
-        sql2 = "select RPT_REC_NUM,WKSHT_CD,LINE_NUM,CLMN_NUM,item myvalue from "
+       var sql2 = "select RPT_REC_NUM,WKSHT_CD,LINE_NUM,CLMN_NUM,item myvalue from "
         	+ schema + "." + table + " where RPT_REC_NUM like '" + rows[i].RPT_REC_NUM 
         	+ "' and WKSHT_CD like '"  + rows[i].WKSHT_CD
             + "' order by RPT_REC_NUM,WKSHT_CD,LINE_NUM,CLMN_NUM";
+       if(prod){
+    	   sql2 = "select cmsid RPT_REC_NUM,WKSHT_CD,LINE_NUM,CLMN_NUM,item myvalue from "
+           	+ schema + "." + table + " where cmsid like '" + rows[i].RPT_REC_NUM 
+           	+ "' and WKSHT_CD like '"  + rows[i].WKSHT_CD
+               + "' order by cmsid,WKSHT_CD,LINE_NUM,CLMN_NUM";
+       }
       //console.log(sql2);
         connection2.query(sql2,    function(err, rows2) {
             mydir = baseDir + rows2[0].RPT_REC_NUM;
