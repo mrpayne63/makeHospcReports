@@ -40,7 +40,7 @@ if(prod) {
 	db = '10.10.10.11';
 	//entity = 101508;
 	table = 'HOSPC_2009_CLXN';
-	sql = "select cmsid RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" where RPT_REC_NUM in ('101537','101529','101500','101508','421555','101515','451520','101518','051511') group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";
+	sql = "select cmsid RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" where cmsid in ('101537','101529','101500','101508','421555','101515','451520','101518','051511') group by cmsid,WKSHT_CD order by cmsid,WKSHT_CD";
 		
 }
 //console.log(sql);
@@ -110,9 +110,9 @@ connection.query(sql,function(err, rows) {
             + "' order by RPT_REC_NUM,WKSHT_CD,LINE_NUM,CLMN_NUM";
        if(prod){
     	   sql2 = "select cmsid RPT_REC_NUM,WKSHT_CD,LINE_NUM,CLMN_NUM,item myvalue from "
-           	+ schema + "." + table + " where RPT_REC_NUM like '" + rows[i].RPT_REC_NUM 
+           	+ schema + "." + table + " where cmsid like '" + rows[i].RPT_REC_NUM 
            	+ "' and WKSHT_CD like '"  + rows[i].WKSHT_CD
-               + "' order by RPT_REC_NUM,WKSHT_CD,LINE_NUM,CLMN_NUM";
+               + "' order by cmsid,WKSHT_CD,LINE_NUM,CLMN_NUM";
        }
       console.log(sql2);
         connection2.query(sql2,    function(err, rows2) {
